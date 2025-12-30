@@ -160,7 +160,7 @@ This project is for educational and decision-support purposes only and does not 
 
 ## 👤 Author
 
-**Bipasha Ach**
+**Bipasha Acharjee**
 AI & Machine Learning Project
 
 ---
