@@ -1,0 +1,3615 @@
+[
+  {
+    "label": "Loan Information",
+    "question": "What is a personal loan?",
+    "answer": "A personal loan is an unsecured loan that can be used for various personal expenses such as medical costs, travel, or home improvements. Approval and terms depend on the bank’s eligibility criteria.",
+    "reasoning": "This response provides a correct definition and avoids guarantees, reflecting standard banking explanations."
+  },
+  {
+    "label": "Loan Eligibility",
+    "question": "Who is eligible to apply for a personal loan?",
+    "answer": "Eligibility for a personal loan is generally based on factors such as income stability, credit history, employment status, and repayment capacity.",
+    "reasoning": "The answer mentions realistic eligibility factors without promising approval."
+  },
+  {
+    "label": "Interest Rate Inquiry",
+    "question": "What determines the interest rate on a loan?",
+    "answer": "Loan interest rates are determined by factors such as the applicant’s credit profile, loan amount, tenure, and whether the rate is fixed or floating.",
+    "reasoning": "This accurately reflects how banks assess interest rates in practice."
+  },
+  {
+    "label": "Documentation",
+    "question": "What documents are required to apply for a loan?",
+    "answer": "Banks typically require proof of identity, proof of address, income documents, and recent bank statements. Additional documents may be requested depending on the loan type.",
+    "reasoning": "The response lists standard documents while allowing flexibility for bank policies."
+  },
+  {
+    "label": "Loan Repayment",
+    "question": "How do I repay my loan?",
+    "answer": "Loans are usually repaid through Equated Monthly Installments, or EMIs, over the agreed loan tenure.",
+    "reasoning": "This matches standard repayment structures used by banks."
+  },
+  {
+    "label": "Late Payment",
+    "question": "What happens if I miss an EMI payment?",
+    "answer": "Missing an EMI payment may result in late payment charges and could negatively affect your credit score. Repeated delays may lead to further action by the bank.",
+    "reasoning": "The answer explains consequences accurately without using threatening language."
+  },
+  {
+    "label": "Prepayment",
+    "question": "Can I repay my loan before the tenure ends?",
+    "answer": "Many loans allow prepayment or foreclosure, which may reduce the total interest payable. Any applicable charges depend on the loan terms and bank policy.",
+    "reasoning": "Prepayment is described realistically with appropriate conditions."
+  },
+  {
+    "label": "Credit Score",
+    "question": "Does taking a loan affect my credit score?",
+    "answer": "Applying for a loan may result in a credit inquiry, and timely repayment can positively influence your credit score over time.",
+    "reasoning": "This reflects how credit scores are impacted by borrowing behavior."
+  },
+  {
+    "label": "Home Loan Information",
+    "question": "What is a home loan?",
+    "answer": "A home loan is a secured loan used to purchase or refinance residential property, where the property generally serves as collateral.",
+    "reasoning": "The definition correctly classifies home loans as secured lending products."
+  },
+  {
+    "label": "Auto Loan Information",
+    "question": "What is an auto loan?",
+    "answer": "An auto loan is a secured loan used to finance the purchase of a vehicle, with the vehicle usually acting as collateral.",
+    "reasoning": "This response accurately reflects how auto loans work."
+  },
+  {
+    "label": "Education Loan",
+    "question": "What is an education loan used for?",
+    "answer": "An education loan helps finance higher education expenses such as tuition, accommodation, and related costs, subject to bank policy.",
+    "reasoning": "The answer stays general and avoids country-specific claims."
+  },
+  {
+    "label": "Business Loan",
+    "question": "Can I apply for a loan to expand my business?",
+    "answer": "Business loans may be used for expansion, working capital, or operational needs, depending on eligibility and business assessment.",
+    "reasoning": "This reflects realistic business lending practices."
+  },
+  {
+    "label": "Processing Time",
+    "question": "How long does it take to get a loan approved?",
+    "answer": "Loan approval time varies based on the loan type, documentation completeness, and internal verification processes.",
+    "reasoning": "Processing time is correctly described as variable."
+  },
+  {
+    "label": "Income Requirement",
+    "question": "Is there a minimum income requirement for loans?",
+    "answer": "Most banks require a minimum income to ensure repayment capacity, which varies depending on the loan product.",
+    "reasoning": "This matches standard risk assessment criteria."
+  },
+  {
+    "label": "Collateral Requirement",
+    "question": "Do all loans require collateral?",
+    "answer": "Not all loans require collateral. Secured loans require collateral, while unsecured loans typically do not.",
+    "reasoning": "The distinction between secured and unsecured loans is accurate."
+  },
+  {
+    "label": "Loan Rejection",
+    "question": "Why might a loan application be rejected?",
+    "answer": "Loan applications may be rejected due to factors such as insufficient income, poor credit history, or high existing liabilities.",
+    "reasoning": "The response gives common reasons without exposing internal decision rules."
+  },
+  {
+    "label": "Customer Support",
+    "question": "Who can I contact for help with my loan application?",
+    "answer": "You can contact the bank’s customer support team or visit a branch for assistance with your loan application.",
+    "reasoning": "Escalation to human support is appropriate and realistic."
+  },
+  {
+    "label": "Interest Calculation",
+    "question": "How is loan interest calculated?",
+    "answer": "Loan interest is calculated based on the principal amount, applicable interest rate, and loan tenure as outlined in the loan agreement.",
+    "reasoning": "This accurately reflects contractual interest calculation."
+  },
+  {
+    "label": "Loan Tenure",
+    "question": "How do I choose the right loan tenure?",
+    "answer": "Selecting a loan tenure depends on your monthly repayment capacity, existing financial obligations, and long-term financial goals.",
+    "reasoning": "The response promotes responsible borrowing behavior."
+  },
+  {
+    "label": "Loan Modification",
+    "question": "Can I change my loan terms after approval?",
+    "answer": "Changes to loan terms may be possible under specific conditions and are subject to bank approval.",
+    "reasoning": "This reflects real-world banking constraints and approval processes."
+  },
+
+  {
+    "label": "Loan Comparison",
+    "question": "What is the difference between a secured and an unsecured loan?",
+    "answer": "A secured loan requires collateral such as property or a vehicle, while an unsecured loan does not require collateral and is approved based on creditworthiness.",
+    "reasoning": "This distinction is fundamental to lending and is explained accurately without oversimplification."
+  },
+  {
+    "label": "Interest Rate Type",
+    "question": "What is a fixed interest rate loan?",
+    "answer": "A fixed interest rate loan has an interest rate that remains unchanged throughout the loan tenure, providing predictable repayment amounts.",
+    "reasoning": "The answer correctly explains fixed rates and their key benefit."
+  },
+  {
+    "label": "Interest Rate Type",
+    "question": "What is a floating interest rate loan?",
+    "answer": "A floating interest rate loan has an interest rate that may change over time based on market conditions or benchmark rates.",
+    "reasoning": "This reflects real-world variability in floating-rate loans."
+  },
+  {
+    "label": "Eligibility Assessment",
+    "question": "Does my employment type affect loan eligibility?",
+    "answer": "Yes, employment type may affect loan eligibility, as banks assess income stability differently for salaried and self-employed applicants.",
+    "reasoning": "Banks do consider employment type, and the answer avoids implying discrimination or guarantees."
+  },
+  {
+    "label": "Loan Amount",
+    "question": "How is the maximum loan amount decided?",
+    "answer": "The maximum loan amount is typically determined based on income, repayment capacity, credit profile, and the specific loan product.",
+    "reasoning": "This reflects standard affordability assessments used by lenders."
+  },
+  {
+    "label": "Application Process",
+    "question": "Can I apply for a loan online?",
+    "answer": "Many banks allow customers to apply for loans online, though some steps may require document verification or in-person confirmation.",
+    "reasoning": "This accurately reflects modern banking processes with realistic limitations."
+  },
+  {
+    "label": "Application Status",
+    "question": "How can I check the status of my loan application?",
+    "answer": "Loan application status can usually be checked through the bank’s online portal, customer support, or by visiting a branch.",
+    "reasoning": "The response provides common and realistic tracking options."
+  },
+  {
+    "label": "Loan Charges",
+    "question": "Are there any processing fees for loans?",
+    "answer": "Many loans include processing fees or administrative charges, which vary by loan type and bank policy.",
+    "reasoning": "The answer correctly mentions fees without assuming they are always charged."
+  },
+  {
+    "label": "Foreclosure",
+    "question": "What does loan foreclosure mean?",
+    "answer": "Loan foreclosure refers to fully repaying the outstanding loan amount before the end of the loan tenure.",
+    "reasoning": "The definition is accurate and commonly used in banking contexts."
+  },
+  {
+    "label": "Penalty Charges",
+    "question": "Is there a penalty for late loan payments?",
+    "answer": "Late loan payments may attract penalty charges as outlined in the loan agreement and can also impact credit history.",
+    "reasoning": "This reflects contractual and credit-related consequences."
+  },
+  {
+    "label": "Credit History",
+    "question": "Why is credit history important for loan approval?",
+    "answer": "Credit history helps banks assess past repayment behavior and evaluate the risk associated with lending.",
+    "reasoning": "This is a core principle of credit risk assessment."
+  },
+  {
+    "label": "Co-Applicant",
+    "question": "Can I add a co-applicant to my loan?",
+    "answer": "Some loans allow the addition of a co-applicant, which may improve eligibility by combining income and credit profiles.",
+    "reasoning": "The answer is accurate and avoids guaranteeing improved approval chances."
+  },
+  {
+    "label": "Guarantor",
+    "question": "What is the role of a guarantor in a loan?",
+    "answer": "A guarantor agrees to repay the loan if the borrower fails to meet repayment obligations, subject to the loan terms.",
+    "reasoning": "This reflects the legal and financial role of a guarantor."
+  },
+  {
+    "label": "Loan Restructuring",
+    "question": "Can a loan be restructured if I face financial difficulty?",
+    "answer": "Loan restructuring may be considered in certain cases, depending on bank policy and the borrower’s financial situation.",
+    "reasoning": "The response is realistic and avoids implying automatic approval."
+  },
+  {
+    "label": "EMI Calculation",
+    "question": "How is my EMI amount calculated?",
+    "answer": "EMI amounts are calculated based on the loan principal, interest rate, and tenure, as specified in the loan agreement.",
+    "reasoning": "This explanation aligns with standard EMI calculation methods."
+  },
+  {
+    "label": "Loan Closure",
+    "question": "What documents do I receive after closing my loan?",
+    "answer": "After loan closure, banks typically provide a no-dues certificate and return any original documents held as collateral.",
+    "reasoning": "This reflects standard post-closure banking practices."
+  },
+  {
+    "label": "Balance Transfer",
+    "question": "What is a loan balance transfer?",
+    "answer": "A loan balance transfer allows a borrower to move the outstanding loan amount to another lender, often to obtain better terms.",
+    "reasoning": "The concept is explained accurately without promotional language."
+  },
+  {
+    "label": "Top-Up Loan",
+    "question": "What is a loan top-up?",
+    "answer": "A loan top-up is an additional amount offered on an existing loan, subject to eligibility and bank approval.",
+    "reasoning": "This matches how top-up loans function in practice."
+  },
+  {
+    "label": "Documentation Verification",
+    "question": "Why does the bank verify my documents?",
+    "answer": "Document verification helps banks confirm identity, income, and authenticity of information provided during the loan application.",
+    "reasoning": "The explanation reflects compliance and risk management requirements."
+  },
+  {
+    "label": "Customer Communication",
+    "question": "Will the bank notify me before debiting my EMI?",
+    "answer": "Banks typically inform customers about EMI schedules during loan onboarding, and debits occur as per the agreed mandate.",
+    "reasoning": "This accurately reflects how EMI mandates and communication work."
+  },
+  {
+    "label": "Loan Eligibility",
+    "question": "Does my age affect my loan eligibility?",
+    "answer": "Age can be a factor in loan eligibility, as banks usually require borrowers to fall within a specified age range at the time of loan application and repayment completion.",
+    "reasoning": "Banks consider age to ensure legal eligibility and repayment feasibility over the loan tenure."
+  },
+  {
+    "label": "Income Stability",
+    "question": "How important is income stability for loan approval?",
+    "answer": "Income stability is important because it helps banks assess the borrower’s ability to repay the loan consistently over time.",
+    "reasoning": "Stable income reduces credit risk and is a standard evaluation criterion."
+  },
+  {
+    "label": "Credit Score",
+    "question": "Can I get a loan with a low credit score?",
+    "answer": "Obtaining a loan with a low credit score may be challenging, as banks consider credit history an important factor. Some options may still be available under specific conditions or with additional requirements.",
+    "reasoning": "The answer is realistic and avoids promising approval while acknowledging possible alternatives."
+  },
+  {
+    "label": "Loan Application",
+    "question": "Can I apply for multiple loans at the same time?",
+    "answer": "You may apply for multiple loans, but banks will assess your overall repayment capacity and existing obligations before approving any new credit.",
+    "reasoning": "This reflects how lenders evaluate total financial exposure."
+  },
+  {
+    "label": "Documentation",
+    "question": "Do banks accept digital copies of documents for loan applications?",
+    "answer": "Many banks accept digital copies during the initial application process, though original documents may be required for final verification.",
+    "reasoning": "This matches current digital banking practices with compliance safeguards."
+  },
+  {
+    "label": "Loan Disbursement",
+    "question": "When is the loan amount disbursed after approval?",
+    "answer": "Loan disbursement typically occurs after approval and completion of all required documentation and verification steps.",
+    "reasoning": "Disbursement timelines depend on procedural completion, which is accurately stated."
+  },
+  {
+    "label": "Interest Rate Change",
+    "question": "Can the interest rate on my loan change during the tenure?",
+    "answer": "For floating-rate loans, interest rates may change during the tenure based on market conditions, while fixed-rate loans usually remain unchanged.",
+    "reasoning": "The answer correctly distinguishes between fixed and floating rates."
+  },
+  {
+    "label": "Repayment Mode",
+    "question": "What payment methods are available for EMI repayment?",
+    "answer": "EMIs are commonly paid through auto-debit mandates, online banking transfers, or other bank-approved payment methods.",
+    "reasoning": "This reflects commonly offered repayment channels."
+  },
+  {
+    "label": "Loan Agreement",
+    "question": "Why should I read the loan agreement carefully?",
+    "answer": "Reading the loan agreement helps you understand interest rates, fees, repayment terms, and other conditions before accepting the loan.",
+    "reasoning": "The response encourages informed decision-making without legal overreach."
+  },
+  {
+    "label": "Penalty Awareness",
+    "question": "Are there penalties for partial prepayment of a loan?",
+    "answer": "Some loans may include partial prepayment charges, depending on the loan terms and bank policy.",
+    "reasoning": "Partial prepayment policies vary, and the answer reflects that variability."
+  },
+  {
+    "label": "Loan Renewal",
+    "question": "Can I renew my loan after it ends?",
+    "answer": "Loan renewal is not automatic and usually requires a fresh application and eligibility assessment.",
+    "reasoning": "This aligns with standard lending procedures."
+  },
+  {
+    "label": "Existing Liabilities",
+    "question": "Do my existing loans affect new loan approval?",
+    "answer": "Yes, existing loans are considered when assessing your repayment capacity and overall financial obligations.",
+    "reasoning": "Banks routinely assess total debt exposure."
+  },
+  {
+    "label": "Loan Statements",
+    "question": "Can I get a statement of my loan account?",
+    "answer": "Banks typically provide loan account statements through online portals or upon request via customer support.",
+    "reasoning": "Access to loan statements is a standard customer service feature."
+  },
+  {
+    "label": "Foreclosure Charges",
+    "question": "Are foreclosure charges applicable on all loans?",
+    "answer": "Foreclosure charges may apply to certain loan types and are governed by the terms mentioned in the loan agreement.",
+    "reasoning": "Charges vary by loan and policy, which is correctly conveyed."
+  },
+  {
+    "label": "Loan Insurance",
+    "question": "What is loan insurance and is it mandatory?",
+    "answer": "Loan insurance is an optional product that helps cover loan repayments in specific situations, and it is generally not mandatory unless specified by the bank.",
+    "reasoning": "The answer clarifies optional nature without misrepresentation."
+  },
+  {
+    "label": "Repayment Schedule",
+    "question": "Can I change my EMI due date?",
+    "answer": "Changing an EMI due date may be possible in some cases, subject to bank approval and applicable conditions.",
+    "reasoning": "Banks may allow changes but not as a guaranteed service."
+  },
+  {
+    "label": "Loan Default",
+    "question": "What is considered a loan default?",
+    "answer": "A loan default generally occurs when scheduled repayments are not made for a prolonged period as per the loan agreement.",
+    "reasoning": "The definition aligns with standard financial terminology."
+  },
+  {
+    "label": "Communication Preference",
+    "question": "How will the bank communicate loan-related updates?",
+    "answer": "Banks typically share loan-related updates through registered email addresses, SMS alerts, or official mobile applications.",
+    "reasoning": "This reflects common communication channels used by banks."
+  },
+  {
+    "label": "Loan Closure",
+    "question": "How do I formally close my loan account?",
+    "answer": "Loan closure usually requires full repayment of outstanding dues and a formal request to the bank, after which closure confirmation is provided.",
+    "reasoning": "This mirrors standard loan closure procedures."
+  },
+  {
+    "label": "Customer Responsibility",
+    "question": "What should I do if I notice an error in my loan account?",
+    "answer": "If you notice an error, you should promptly contact the bank’s customer support team to report and resolve the issue.",
+    "reasoning": "Encouraging timely reporting reflects responsible customer guidance."
+  },
+
+  {
+    "label": "Eligibility Criteria",
+    "question": "Is there a minimum income requirement to apply for a loan?",
+    "answer": "Most banks specify a minimum income requirement to ensure the borrower can manage loan repayments comfortably.",
+    "reasoning": "Income thresholds help lenders assess basic repayment capacity."
+  },
+  {
+    "label": "Employment Verification",
+    "question": "Why does the bank verify my employer details?",
+    "answer": "Employer verification helps confirm employment stability and the authenticity of income information provided in the application.",
+    "reasoning": "Employment checks reduce fraud and credit risk."
+  },
+  {
+    "label": "Loan Tenure",
+    "question": "How do I choose the right loan tenure?",
+    "answer": "Choosing the right loan tenure involves balancing affordable EMI amounts with the total interest payable over time.",
+    "reasoning": "Longer tenures reduce EMI but increase total interest, which is a key trade-off."
+  },
+  {
+    "label": "Interest Calculation",
+    "question": "Is interest calculated daily or monthly on loans?",
+    "answer": "Interest calculation methods vary by loan product and lender, and details are provided in the loan agreement.",
+    "reasoning": "Different loans use different compounding methods, which must be contractually disclosed."
+  },
+  {
+    "label": "Loan Modification",
+    "question": "Can I request a change in loan terms after disbursement?",
+    "answer": "Changes to loan terms after disbursement may be considered in specific cases, subject to bank policy and approval.",
+    "reasoning": "Loan modifications are possible but not guaranteed."
+  },
+  {
+    "label": "Repayment Tracking",
+    "question": "How can I track my remaining loan balance?",
+    "answer": "Remaining loan balance can typically be tracked through online banking portals or periodic account statements.",
+    "reasoning": "Banks provide transparency through digital or documented records."
+  },
+  {
+    "label": "Missed Payment",
+    "question": "What should I do if I accidentally miss an EMI?",
+    "answer": "If an EMI is missed, you should contact the bank promptly to understand penalties and explore corrective steps.",
+    "reasoning": "Early communication can help limit negative impacts."
+  },
+  {
+    "label": "Loan Offers",
+    "question": "Why do loan offers differ between customers?",
+    "answer": "Loan offers differ based on factors such as credit profile, income, existing liabilities, and bank risk assessments.",
+    "reasoning": "Personalized risk-based pricing is standard in lending."
+  },
+  {
+    "label": "Pre-Approval",
+    "question": "What does loan pre-approval mean?",
+    "answer": "Loan pre-approval indicates preliminary eligibility based on initial information, subject to final verification.",
+    "reasoning": "Pre-approval is conditional and not a final commitment."
+  },
+  {
+    "label": "Loan Cancellation",
+    "question": "Can I cancel my loan after approval but before disbursement?",
+    "answer": "Loan cancellation before disbursement may be possible, though certain administrative charges could apply.",
+    "reasoning": "Banks often allow cancellation with defined conditions."
+  },
+  {
+    "label": "Credit Utilization",
+    "question": "Does high credit card usage affect loan approval?",
+    "answer": "High credit utilization can affect loan approval, as it may indicate higher financial obligations.",
+    "reasoning": "Credit utilization is a common factor in credit evaluation."
+  },
+  {
+    "label": "Loan Communication",
+    "question": "Will I receive reminders before my EMI due date?",
+    "answer": "Many banks provide EMI reminders through SMS, email, or app notifications as part of customer service.",
+    "reasoning": "Reminder systems are widely used to support timely payments."
+  },
+  {
+    "label": "Account Management",
+    "question": "Can I update my contact details during the loan tenure?",
+    "answer": "Yes, banks generally allow customers to update contact details to ensure uninterrupted communication.",
+    "reasoning": "Accurate contact information is essential for service and compliance."
+  },
+  {
+    "label": "Loan Audit",
+    "question": "Why does the bank occasionally review my loan account?",
+    "answer": "Periodic loan reviews help banks ensure compliance with terms and monitor account performance.",
+    "reasoning": "Account reviews are part of routine risk management."
+  },
+  {
+    "label": "Repayment Flexibility",
+    "question": "Can I make additional payments toward my loan anytime?",
+    "answer": "Additional payments may be allowed depending on the loan type and applicable prepayment conditions.",
+    "reasoning": "Not all loans permit unrestricted extra payments."
+  },
+  {
+    "label": "Loan Documentation",
+    "question": "Why are income documents required for loan processing?",
+    "answer": "Income documents help banks verify earning capacity and determine suitable loan limits.",
+    "reasoning": "Documented income is a core input for credit assessment."
+  },
+  {
+    "label": "Interest Transparency",
+    "question": "How can I confirm the interest rate applied to my loan?",
+    "answer": "The applicable interest rate is mentioned in the loan agreement and reflected in account statements.",
+    "reasoning": "Interest rates must be transparently disclosed to borrowers."
+  },
+  {
+    "label": "Loan Portability",
+    "question": "Can I transfer my loan to another branch of the same bank?",
+    "answer": "Loan portability within the same bank may be possible, subject to internal policies and documentation.",
+    "reasoning": "Internal transfers depend on operational feasibility."
+  },
+  {
+    "label": "Customer Support",
+    "question": "Who should I contact for loan-related complaints?",
+    "answer": "Loan-related complaints can be raised with the bank’s customer support or grievance redressal department.",
+    "reasoning": "Banks maintain formal channels for issue resolution."
+  },
+  {
+    "label": "Loan Transparency",
+    "question": "Why do banks provide an amortization schedule?",
+    "answer": "An amortization schedule shows the breakup of principal and interest over time, helping borrowers understand repayment structure.",
+    "reasoning": "This promotes transparency and informed financial planning."
+  },
+
+
+
+  {
+    "label": "Loan Eligibility",
+    "question": "Am I too young to apply for a loan?",
+    "answer": "Banks usually have a minimum age requirement for loans, and you must also fall within the allowed age range by the end of the loan tenure.",
+    "reasoning": "Age limits are applied to ensure legal eligibility and repayment ability."
+  },
+  {
+    "label": "Income Requirement",
+    "question": "Do I need a high salary to get a loan?",
+    "answer": "A very high salary is not always required, but banks do check whether your income is enough to manage repayments comfortably.",
+    "reasoning": "Loan approval focuses on affordability rather than income alone."
+  },
+  {
+    "label": "Credit Score",
+    "question": "Why does everyone keep asking about my credit score?",
+    "answer": "Your credit score shows how you have handled loans and payments in the past, which helps banks decide how risky it is to lend to you.",
+    "reasoning": "Credit history is a key indicator of repayment behavior."
+  },
+  {
+    "label": "Loan Application",
+    "question": "Can I apply for a loan from my phone?",
+    "answer": "Many banks allow loan applications through mobile apps or websites, though some steps may still require verification.",
+    "reasoning": "Digital applications are common but often combined with checks."
+  },
+  {
+    "label": "Documentation",
+    "question": "Why do banks ask for so many documents?",
+    "answer": "Banks request documents to confirm your identity, income, and other details needed to process the loan safely.",
+    "reasoning": "Documentation helps prevent fraud and assess eligibility."
+  },
+  {
+    "label": "Loan Disbursement",
+    "question": "How long does it take to get the money after approval?",
+    "answer": "Once approved, the loan amount is usually disbursed after all required checks and paperwork are completed.",
+    "reasoning": "Disbursement depends on process completion, not approval alone."
+  },
+  {
+    "label": "EMI Payment",
+    "question": "What happens if I forget to pay one EMI?",
+    "answer": "Missing an EMI may lead to late fees and could affect your credit score, so it’s best to contact the bank if this happens.",
+    "reasoning": "Single missed payments still have consequences but can be addressed early."
+  },
+  {
+    "label": "Interest Rate",
+    "question": "Why does my friend get a lower interest rate than me?",
+    "answer": "Interest rates can vary based on factors like credit score, income, and existing loans, so different customers may receive different rates.",
+    "reasoning": "Risk-based pricing is standard in lending."
+  },
+  {
+    "label": "Loan Tenure",
+    "question": "Is it better to take a longer loan or a shorter one?",
+    "answer": "A longer loan lowers monthly payments but increases total interest, while a shorter loan costs less overall but has higher EMIs.",
+    "reasoning": "This explains the trade-off in simple terms."
+  },
+  {
+    "label": "Repayment Mode",
+    "question": "How do banks usually collect EMIs?",
+    "answer": "EMIs are commonly collected through auto-debit from your bank account or other approved payment methods.",
+    "reasoning": "Auto-debit is the most common and reliable method."
+  },
+  {
+    "label": "Prepayment",
+    "question": "Can I pay extra money to finish my loan faster?",
+    "answer": "Some loans allow extra payments or prepayments, but conditions and charges depend on the loan terms.",
+    "reasoning": "Prepayment rules vary and must follow agreement terms."
+  },
+  {
+    "label": "Loan Agreement",
+    "question": "Do I really need to read the loan agreement?",
+    "answer": "Yes, reading the loan agreement helps you understand interest rates, fees, and rules before committing.",
+    "reasoning": "Informed consent is important in financial contracts."
+  },
+  {
+    "label": "Loan Status",
+    "question": "How do I know how much of my loan is still left?",
+    "answer": "You can usually check your remaining loan balance through online banking or loan statements.",
+    "reasoning": "Banks provide balance visibility to borrowers."
+  },
+  {
+    "label": "Existing Loans",
+    "question": "Will my old loans affect a new loan?",
+    "answer": "Yes, existing loans are considered because they affect how much you can repay comfortably.",
+    "reasoning": "Total debt matters in affordability checks."
+  },
+  {
+    "label": "Loan Closure",
+    "question": "What do I get after I fully pay off my loan?",
+    "answer": "After full repayment, banks usually provide a loan closure or no-dues confirmation.",
+    "reasoning": "Closure documents confirm the loan has ended."
+  },
+  {
+    "label": "Loan Insurance",
+    "question": "Is loan insurance compulsory?",
+    "answer": "Loan insurance is usually optional, unless the bank clearly states otherwise.",
+    "reasoning": "Most loan insurance products are add-ons."
+  },
+  {
+    "label": "Loan Problems",
+    "question": "Who should I talk to if something seems wrong with my loan?",
+    "answer": "You should contact the bank’s customer support or visit a branch to raise any concerns.",
+    "reasoning": "Banks provide official channels for issue resolution."
+  },
+  {
+    "label": "EMI Timing",
+    "question": "Can I change the date when my EMI gets deducted?",
+    "answer": "Some banks allow EMI date changes, but it depends on their policies and approval.",
+    "reasoning": "Operational flexibility varies by bank."
+  },
+  {
+    "label": "Loan Offers",
+    "question": "Why do banks keep offering me loans?",
+    "answer": "Banks may offer loans based on your profile, past relationship, or eligibility indicators.",
+    "reasoning": "Pre-approved offers are often marketing-driven."
+  },
+  {
+    "label": "Communication",
+    "question": "How will the bank keep me updated about my loan?",
+    "answer": "Banks usually send updates through SMS, email, or mobile app notifications.",
+    "reasoning": "Digital communication is standard practice."
+  },
+
+  
+  
+
+  {
+    "label": "Loan Eligibility",
+    "question": "Can I get a loan if I just started my job?",
+    "answer": "Some banks may consider your application, but they usually prefer borrowers with a stable work history.",
+    "reasoning": "Job stability helps banks assess repayment reliability."
+  },
+  {
+    "label": "Income Proof",
+    "question": "What if I don’t have salary slips?",
+    "answer": "If salary slips are unavailable, banks may accept other income proof depending on their policy.",
+    "reasoning": "Alternative documents can sometimes substitute standard proofs."
+  },
+  {
+    "label": "Credit History",
+    "question": "What if I’ve never taken a loan before?",
+    "answer": "If you have no credit history, banks may still consider your application based on income and other factors.",
+    "reasoning": "First-time borrowers are assessed using available financial indicators."
+  },
+  {
+    "label": "Loan Amount",
+    "question": "How do banks decide how much I can borrow?",
+    "answer": "Banks look at your income, expenses, and existing loans to decide a safe borrowing amount.",
+    "reasoning": "Affordability assessments help prevent over-lending."
+  },
+  {
+    "label": "Application Process",
+    "question": "Do I have to visit the bank to apply?",
+    "answer": "Many loans can be applied for online, but a visit may be needed for verification.",
+    "reasoning": "Hybrid digital and physical processes are common."
+  },
+  {
+    "label": "Loan Approval",
+    "question": "Does approval mean the loan is guaranteed?",
+    "answer": "Approval usually means the bank is willing to lend, but final disbursement depends on completing formalities.",
+    "reasoning": "Approval is conditional until documentation is complete."
+  },
+  {
+    "label": "Loan Delay",
+    "question": "Why is my loan taking so long to get approved?",
+    "answer": "Delays can happen due to document checks, verification issues, or internal processing timelines.",
+    "reasoning": "Multiple checks are involved before approval."
+  },
+  {
+    "label": "EMI Setup",
+    "question": "When does my EMI start after I take a loan?",
+    "answer": "EMIs usually start in the month following loan disbursement, as mentioned in your loan agreement.",
+    "reasoning": "EMI schedules are defined at onboarding."
+  },
+  {
+    "label": "Repayment Issues",
+    "question": "What if I can’t pay my EMI for one month?",
+    "answer": "If you face difficulty, it’s best to inform the bank early to understand available options.",
+    "reasoning": "Early communication can reduce negative outcomes."
+  },
+  {
+    "label": "Interest Rate",
+    "question": "Can my loan interest suddenly increase?",
+    "answer": "Interest may change if you have a floating-rate loan, depending on market conditions.",
+    "reasoning": "Floating rates are linked to external benchmarks."
+  },
+  {
+    "label": "Loan Charges",
+    "question": "Why was extra money deducted from my loan amount?",
+    "answer": "Deductions may include processing fees or other charges mentioned in the loan agreement.",
+    "reasoning": "Upfront fees are commonly adjusted at disbursement."
+  },
+  {
+    "label": "Loan Statement",
+    "question": "Can I see a breakup of my EMI payments?",
+    "answer": "Yes, banks usually provide an amortization schedule showing principal and interest portions.",
+    "reasoning": "EMI breakup promotes repayment transparency."
+  },
+  {
+    "label": "Top-Up Loan",
+    "question": "Can I borrow more money on my existing loan?",
+    "answer": "Some banks offer top-up loans based on your repayment history and eligibility.",
+    "reasoning": "Good repayment behavior can unlock additional credit."
+  },
+  {
+    "label": "Loan Transfer",
+    "question": "Can I move my loan to another bank?",
+    "answer": "Loan transfers may be possible, often to get better terms, subject to approval by the new bank.",
+    "reasoning": "Balance transfers depend on eligibility and policy."
+  },
+  {
+    "label": "Loan Closure",
+    "question": "Do I need to inform the bank after paying my last EMI?",
+    "answer": "Yes, it’s recommended to confirm loan closure and collect closure documents.",
+    "reasoning": "Formal closure avoids future account issues."
+  },
+  {
+    "label": "Credit Impact",
+    "question": "Will missing one EMI ruin my credit score?",
+    "answer": "Missing an EMI can affect your credit score, but the impact depends on payment history and delay duration.",
+    "reasoning": "Credit impact varies with severity and frequency."
+  },
+  {
+    "label": "Loan Communication",
+    "question": "What if I don’t receive any loan updates?",
+    "answer": "You should contact the bank to ensure your contact details are updated and request status information.",
+    "reasoning": "Accurate contact details are essential for updates."
+  },
+  {
+    "label": "Customer Responsibility",
+    "question": "Is it my job to track my loan payments?",
+    "answer": "Yes, borrowers should regularly monitor their loan account to ensure timely payments.",
+    "reasoning": "Active monitoring helps avoid missed payments."
+  },
+  {
+    "label": "Loan Security",
+    "question": "What happens to my collateral if I can’t repay?",
+    "answer": "In secured loans, the bank may take action on the collateral as per the loan agreement.",
+    "reasoning": "Collateral protects the lender in case of default."
+  },
+  {
+    "label": "General Awareness",
+    "question": "Is taking a loan always a bad idea?",
+    "answer": "A loan can be useful if planned responsibly, but it should match your financial capacity.",
+    "reasoning": "Balanced guidance encourages responsible borrowing."
+  },
+
+
+
+
+
+  {
+    "label": "Loan Eligibility",
+    "question": "Hi, can you tell me if I’m eligible for a loan?",
+    "answer": "Of course. Loan eligibility usually depends on factors like your income, credit history, and existing financial commitments.",
+    "reasoning": "A friendly opening paired with a general eligibility explanation sets a welcoming tone."
+  },
+  {
+    "label": "Income Check",
+    "question": "Is my income enough to apply for a loan?",
+    "answer": "Your income may be sufficient, as banks mainly check whether you can comfortably manage monthly repayments.",
+    "reasoning": "The response reassures without making promises."
+  },
+  {
+    "label": "Credit Score",
+    "question": "I’m a bit worried about my credit score. Does it really matter?",
+    "answer": "Your credit score does matter, but don’t worry—banks use it to understand past repayment behavior along with other factors.",
+    "reasoning": "Acknowledges concern while providing calm clarification."
+  },
+  {
+    "label": "Loan Application",
+    "question": "Can you help me apply for a loan online?",
+    "answer": "Yes, many banks offer online applications, and I can guide you through the general steps involved.",
+    "reasoning": "Friendly assistance tone without implying direct processing."
+  },
+  {
+    "label": "Documentation",
+    "question": "Could you please tell me what documents I’ll need?",
+    "answer": "Certainly. Banks usually ask for identity proof, income documents, and address verification to process a loan.",
+    "reasoning": "Polite phrasing and commonly required documents."
+  },
+  {
+    "label": "Loan Timeline",
+    "question": "Do you know how long loan approval usually takes?",
+    "answer": "Approval timelines can vary, but most loans are processed after document verification and internal checks.",
+    "reasoning": "Keeps expectations realistic while remaining helpful."
+  },
+  {
+    "label": "EMI Payment",
+    "question": "I’m worried about missing an EMI. What should I do?",
+    "answer": "It’s completely understandable to worry. If this happens, it’s best to inform the bank early so they can guide you on next steps.",
+    "reasoning": "Empathetic tone encourages proactive action."
+  },
+  {
+    "label": "Interest Rate",
+    "question": "Could you explain why interest rates are different for everyone?",
+    "answer": "Certainly. Interest rates depend on factors like credit score, income, and existing loans, which can differ from person to person.",
+    "reasoning": "Clear explanation using polite language."
+  },
+  {
+    "label": "Loan Tenure",
+    "question": "Can you help me understand which loan tenure might suit me?",
+    "answer": "Of course. Shorter tenures usually save on interest, while longer tenures offer lower monthly payments.",
+    "reasoning": "Friendly guidance explaining trade-offs."
+  },
+  {
+    "label": "Repayment Mode",
+    "question": "How will my EMI be paid every month?",
+    "answer": "EMIs are usually paid through automatic bank deductions, making repayments simple and timely.",
+    "reasoning": "Reassuring explanation of auto-debit convenience."
+  },
+  {
+    "label": "Prepayment",
+    "question": "Is it okay if I want to pay off my loan early?",
+    "answer": "Yes, many banks allow early repayment, though some conditions or charges may apply depending on your loan.",
+    "reasoning": "Encourages flexibility while setting correct expectations."
+  },
+  {
+    "label": "Loan Agreement",
+    "question": "I’m not sure I understand the loan agreement. Any advice?",
+    "answer": "That’s understandable. It’s a good idea to read it carefully and ask the bank to explain anything unclear before signing.",
+    "reasoning": "Supportive tone promotes informed consent."
+  },
+  {
+    "label": "Loan Balance",
+    "question": "How can I easily check how much I still owe?",
+    "answer": "You can usually check your remaining balance through online banking, mobile apps, or loan statements.",
+    "reasoning": "Simple and reassuring guidance."
+  },
+  {
+    "label": "Existing Loans",
+    "question": "I already have a loan. Will that be a problem?",
+    "answer": "Not necessarily. Banks will look at your overall repayment capacity before making a decision.",
+    "reasoning": "Avoids alarm while explaining assessment logic."
+  },
+  {
+    "label": "Loan Closure",
+    "question": "What should I do once my loan is fully paid?",
+    "answer": "Once your loan is paid off, it’s a good idea to request loan closure confirmation from the bank.",
+    "reasoning": "Helpful reminder for best practice."
+  },
+  {
+    "label": "Loan Insurance",
+    "question": "Do I really need loan insurance?",
+    "answer": "Loan insurance is usually optional, but it can provide added protection in certain situations.",
+    "reasoning": "Balanced explanation without sales pressure."
+  },
+  {
+    "label": "Loan Issues",
+    "question": "Who can help me if I face a problem with my loan?",
+    "answer": "You can reach out to the bank’s customer support team or visit a nearby branch for assistance.",
+    "reasoning": "Provides clear next steps politely."
+  },
+  {
+    "label": "EMI Date",
+    "question": "Can I request a different EMI date if needed?",
+    "answer": "You may request a change, and the bank will let you know if it can be arranged.",
+    "reasoning": "Keeps tone courteous and realistic."
+  },
+  {
+    "label": "Loan Offers",
+    "question": "Why do I keep getting loan offers from banks?",
+    "answer": "Banks often send offers based on your profile or past relationship, but you’re free to choose what suits you.",
+    "reasoning": "Friendly explanation without pressure."
+  },
+  {
+    "label": "General Help",
+    "question": "Can you help me understand loans better?",
+    "answer": "Absolutely. I’m here to help explain loan-related topics and answer any questions you may have.",
+    "reasoning": "Warm closing reinforces assistant role."
+  },
+
+
+
+
+  {
+    "label": "Loan Eligibility",
+    "question": "Hi, can you tell me if I’m eligible for a loan?",
+    "answer": "Of course. Loan eligibility usually depends on factors like your income, credit history, and existing financial commitments.",
+    "reasoning": "A friendly opening paired with a general eligibility explanation sets a welcoming tone."
+  },
+  {
+    "label": "Income Check",
+    "question": "Is my income enough to apply for a loan?",
+    "answer": "Your income may be sufficient, as banks mainly check whether you can comfortably manage monthly repayments.",
+    "reasoning": "The response reassures without making promises."
+  },
+  {
+    "label": "Credit Score",
+    "question": "I’m a bit worried about my credit score. Does it really matter?",
+    "answer": "Your credit score does matter, but don’t worry—banks use it to understand past repayment behavior along with other factors.",
+    "reasoning": "Acknowledges concern while providing calm clarification."
+  },
+  {
+    "label": "Loan Application",
+    "question": "Can you help me apply for a loan online?",
+    "answer": "Yes, many banks offer online applications, and I can guide you through the general steps involved.",
+    "reasoning": "Friendly assistance tone without implying direct processing."
+  },
+  {
+    "label": "Documentation",
+    "question": "Could you please tell me what documents I’ll need?",
+    "answer": "Certainly. Banks usually ask for identity proof, income documents, and address verification to process a loan.",
+    "reasoning": "Polite phrasing and commonly required documents."
+  },
+  {
+    "label": "Loan Timeline",
+    "question": "Do you know how long loan approval usually takes?",
+    "answer": "Approval timelines can vary, but most loans are processed after document verification and internal checks.",
+    "reasoning": "Keeps expectations realistic while remaining helpful."
+  },
+  {
+    "label": "EMI Payment",
+    "question": "I’m worried about missing an EMI. What should I do?",
+    "answer": "It’s completely understandable to worry. If this happens, it’s best to inform the bank early so they can guide you on next steps.",
+    "reasoning": "Empathetic tone encourages proactive action."
+  },
+  {
+    "label": "Interest Rate",
+    "question": "Could you explain why interest rates are different for everyone?",
+    "answer": "Certainly. Interest rates depend on factors like credit score, income, and existing loans, which can differ from person to person.",
+    "reasoning": "Clear explanation using polite language."
+  },
+  {
+    "label": "Loan Tenure",
+    "question": "Can you help me understand which loan tenure might suit me?",
+    "answer": "Of course. Shorter tenures usually save on interest, while longer tenures offer lower monthly payments.",
+    "reasoning": "Friendly guidance explaining trade-offs."
+  },
+  {
+    "label": "Repayment Mode",
+    "question": "How will my EMI be paid every month?",
+    "answer": "EMIs are usually paid through automatic bank deductions, making repayments simple and timely.",
+    "reasoning": "Reassuring explanation of auto-debit convenience."
+  },
+  {
+    "label": "Prepayment",
+    "question": "Is it okay if I want to pay off my loan early?",
+    "answer": "Yes, many banks allow early repayment, though some conditions or charges may apply depending on your loan.",
+    "reasoning": "Encourages flexibility while setting correct expectations."
+  },
+  {
+    "label": "Loan Agreement",
+    "question": "I’m not sure I understand the loan agreement. Any advice?",
+    "answer": "That’s understandable. It’s a good idea to read it carefully and ask the bank to explain anything unclear before signing.",
+    "reasoning": "Supportive tone promotes informed consent."
+  },
+  {
+    "label": "Loan Balance",
+    "question": "How can I easily check how much I still owe?",
+    "answer": "You can usually check your remaining balance through online banking, mobile apps, or loan statements.",
+    "reasoning": "Simple and reassuring guidance."
+  },
+  {
+    "label": "Existing Loans",
+    "question": "I already have a loan. Will that be a problem?",
+    "answer": "Not necessarily. Banks will look at your overall repayment capacity before making a decision.",
+    "reasoning": "Avoids alarm while explaining assessment logic."
+  },
+  {
+    "label": "Loan Closure",
+    "question": "What should I do once my loan is fully paid?",
+    "answer": "Once your loan is paid off, it’s a good idea to request loan closure confirmation from the bank.",
+    "reasoning": "Helpful reminder for best practice."
+  },
+  {
+    "label": "Loan Insurance",
+    "question": "Do I really need loan insurance?",
+    "answer": "Loan insurance is usually optional, but it can provide added protection in certain situations.",
+    "reasoning": "Balanced explanation without sales pressure."
+  },
+  {
+    "label": "Loan Issues",
+    "question": "Who can help me if I face a problem with my loan?",
+    "answer": "You can reach out to the bank’s customer support team or visit a nearby branch for assistance.",
+    "reasoning": "Provides clear next steps politely."
+  },
+  {
+    "label": "EMI Date",
+    "question": "Can I request a different EMI date if needed?",
+    "answer": "You may request a change, and the bank will let you know if it can be arranged.",
+    "reasoning": "Keeps tone courteous and realistic."
+  },
+  {
+    "label": "Loan Offers",
+    "question": "Why do I keep getting loan offers from banks?",
+    "answer": "Banks often send offers based on your profile or past relationship, but you’re free to choose what suits you.",
+    "reasoning": "Friendly explanation without pressure."
+  },
+  {
+    "label": "General Help",
+    "question": "Can you help me understand loans better?",
+    "answer": "Absolutely. I’m here to help explain loan-related topics and answer any questions you may have.",
+    "reasoning": "Warm closing reinforces assistant role."
+  },
+
+
+
+
+
+  {
+    "label": "Loan Eligibility",
+    "question": "Hello, can you help me check if I qualify for a loan?",
+    "answer": "Sure, I’d be happy to help. Loan eligibility is usually checked based on income, credit history, and current financial commitments.",
+    "reasoning": "Friendly greeting with a clear but non-committal explanation of eligibility."
+  },
+  {
+    "label": "Income Assessment",
+    "question": "What if my income changes every month?",
+    "answer": "That’s okay. Banks may still consider your application by looking at your average income over a period of time.",
+    "reasoning": "Many applicants have variable income, and banks assess patterns rather than single months."
+  },
+  {
+    "label": "Employment Type",
+    "question": "Does it matter if I’m self-employed?",
+    "answer": "Not at all. Self-employed applicants are also eligible, though banks may ask for different income documents.",
+    "reasoning": "Reassures while accurately reflecting documentation differences."
+  },
+  {
+    "label": "Credit Score",
+    "question": "Can I improve my chances if my credit score isn’t great?",
+    "answer": "Yes, maintaining timely payments and reducing existing debts can help improve your overall credit profile over time.",
+    "reasoning": "Encourages responsible financial behavior without quick-fix promises."
+  },
+  {
+    "label": "Loan Application",
+    "question": "Is the loan application process complicated?",
+    "answer": "The process is usually straightforward, especially with online applications, as long as documents are ready.",
+    "reasoning": "Reduces anxiety while remaining honest about requirements."
+  },
+  {
+    "label": "Documentation",
+    "question": "Can I submit documents later if I don’t have them now?",
+    "answer": "In many cases, you can start the application and submit pending documents when requested by the bank.",
+    "reasoning": "Reflects flexible but structured application flows."
+  },
+  {
+    "label": "Loan Processing",
+    "question": "Why does the bank call me during loan processing?",
+    "answer": "The bank may call to verify details or clarify information to move your application forward smoothly.",
+    "reasoning": "Normalizes verification calls to build trust."
+  },
+  {
+    "label": "Loan Approval",
+    "question": "How will I know if my loan is approved?",
+    "answer": "Banks usually inform customers through SMS, email, or phone once a decision is made.",
+    "reasoning": "Describes standard notification methods."
+  },
+  {
+    "label": "Loan Disbursement",
+    "question": "Will the loan money come directly to my account?",
+    "answer": "Yes, once disbursed, the loan amount is typically credited directly to your registered bank account.",
+    "reasoning": "Accurate and reassuring explanation of disbursement."
+  },
+  {
+    "label": "EMI Start",
+    "question": "Do EMIs start immediately after I get the loan?",
+    "answer": "EMIs usually start as per the schedule mentioned in your loan agreement, often from the following month.",
+    "reasoning": "Clarifies common EMI timelines."
+  },
+  {
+    "label": "Missed Payment",
+    "question": "What should I do if I think I might miss an EMI?",
+    "answer": "It’s best to inform the bank as early as possible so they can guide you on available options.",
+    "reasoning": "Encourages proactive and responsible action."
+  },
+  {
+    "label": "Interest Rate",
+    "question": "Can you explain interest rates in simple words?",
+    "answer": "Interest is the extra amount you pay the bank for borrowing money, usually charged as a percentage.",
+    "reasoning": "Simple explanation suitable for first-time borrowers."
+  },
+  {
+    "label": "Loan Tenure",
+    "question": "Can I choose how long I want to repay the loan?",
+    "answer": "Yes, banks usually offer different repayment periods, and you can choose one that suits your budget.",
+    "reasoning": "Empowers user choice while staying realistic."
+  },
+  {
+    "label": "Prepayment",
+    "question": "Is there any benefit to paying extra when I can?",
+    "answer": "Paying extra can help reduce interest over time, depending on your loan’s prepayment terms.",
+    "reasoning": "Explains benefit without guaranteeing unrestricted prepayment."
+  },
+  {
+    "label": "Loan Charges",
+    "question": "Are all loan charges explained upfront?",
+    "answer": "Banks are expected to share details of applicable charges in the loan agreement and related documents.",
+    "reasoning": "Promotes transparency while setting correct expectations."
+  },
+  {
+    "label": "Loan Statement",
+    "question": "Can I get regular updates on my loan payments?",
+    "answer": "Yes, banks usually provide statements or online access to track payments and balances.",
+    "reasoning": "Reinforces transparency and customer access."
+  },
+  {
+    "label": "Loan Closure",
+    "question": "Is there anything I should check after closing my loan?",
+    "answer": "It’s a good idea to confirm closure and keep the no-dues certificate for your records.",
+    "reasoning": "Encourages best practices post-loan."
+  },
+  {
+    "label": "Credit Impact",
+    "question": "Will paying my EMIs on time help my credit score?",
+    "answer": "Yes, timely repayments generally have a positive impact on your credit score.",
+    "reasoning": "Accurate reinforcement of good repayment behavior."
+  },
+  {
+    "label": "Customer Support",
+    "question": "Can I talk to someone if I have more questions?",
+    "answer": "Absolutely. You can reach out to the bank’s customer support team whenever you need assistance.",
+    "reasoning": "Friendly reassurance of support availability."
+  },
+  {
+    "label": "General Guidance",
+    "question": "Is it okay to ask basic questions about loans?",
+    "answer": "Of course. Asking questions helps you make better financial decisions, and banks are there to help.",
+    "reasoning": "Creates a welcoming, non-judgmental experience."
+  },
+
+
+
+
+
+
+  {
+    "label": "Loan Eligibility",
+    "question": "Hi, is there a basic checklist to see if I can get a loan?",
+    "answer": "Yes, banks usually look at your income, credit history, age, and existing loans to decide eligibility.",
+    "reasoning": "Summarizes common eligibility factors in a friendly, easy-to-understand way."
+  },
+  {
+    "label": "First-Time Borrower",
+    "question": "This is my first loan. Is that a problem?",
+    "answer": "Not at all. Many people apply for loans for the first time, and banks assess them using available financial details.",
+    "reasoning": "Reassures new borrowers while remaining realistic."
+  },
+  {
+    "label": "Income Proof",
+    "question": "What if my income isn’t the same every month?",
+    "answer": "That’s okay. Banks usually look at your average income over time rather than just one month.",
+    "reasoning": "Reflects how variable income is typically assessed."
+  },
+  {
+    "label": "Loan Application",
+    "question": "Can someone help me while I’m filling out the loan form?",
+    "answer": "Yes, banks usually offer customer support or branch assistance if you need help during the application.",
+    "reasoning": "Encourages support-seeking behavior."
+  },
+  {
+    "label": "Verification",
+    "question": "Why does the bank ask so many questions during verification?",
+    "answer": "These questions help confirm your details and ensure the loan is processed safely and correctly.",
+    "reasoning": "Explains verification without sounding suspicious or alarming."
+  },
+  {
+    "label": "Loan Approval",
+    "question": "Is approval the final step before getting the money?",
+    "answer": "Approval is an important step, but the loan is usually disbursed after final checks and paperwork.",
+    "reasoning": "Clarifies approval versus disbursement."
+  },
+  {
+    "label": "Loan Disbursement",
+    "question": "Will I be informed when the loan amount is sent?",
+    "answer": "Yes, banks typically notify customers when the loan amount has been disbursed.",
+    "reasoning": "Sets clear expectations for communication."
+  },
+  {
+    "label": "EMI Understanding",
+    "question": "Can you explain what EMI actually means?",
+    "answer": "EMI stands for Equated Monthly Installment, which is the fixed amount you pay every month toward your loan.",
+    "reasoning": "Simple explanation suitable for non-technical users."
+  },
+  {
+    "label": "EMI Amount",
+    "question": "Why does my EMI feel high?",
+    "answer": "EMI amounts depend on loan size, interest rate, and repayment period, so adjusting tenure may change it.",
+    "reasoning": "Explains EMI factors without offering financial advice."
+  },
+  {
+    "label": "Payment Method",
+    "question": "Do I need to remember to pay my EMI every month?",
+    "answer": "Usually, EMIs are auto-debited from your account, which helps avoid missed payments.",
+    "reasoning": "Highlights convenience and risk reduction."
+  },
+  {
+    "label": "Missed EMI",
+    "question": "What happens if my bank balance is low on EMI day?",
+    "answer": "If there aren’t enough funds, the EMI may fail, so it’s best to maintain balance or inform the bank early.",
+    "reasoning": "Explains consequences gently and practically."
+  },
+  {
+    "label": "Interest Rate",
+    "question": "Is interest charged on the full loan amount?",
+    "answer": "Interest is usually calculated on the outstanding loan balance, not the original amount for the entire tenure.",
+    "reasoning": "Clarifies a common misunderstanding."
+  },
+  {
+    "label": "Loan Flexibility",
+    "question": "Can I increase my EMI if I start earning more?",
+    "answer": "Some banks allow EMI increases or partial prepayments, depending on the loan terms.",
+    "reasoning": "Shows flexibility while respecting policy limits."
+  },
+  {
+    "label": "Loan Charges",
+    "question": "Are there any hidden charges I should worry about?",
+    "answer": "Banks are required to disclose applicable charges upfront, so it’s best to review the loan agreement carefully.",
+    "reasoning": "Encourages transparency and document awareness."
+  },
+  {
+    "label": "Loan Statement",
+    "question": "How often can I check my loan details?",
+    "answer": "You can usually check your loan details anytime through online banking or mobile apps.",
+    "reasoning": "Reinforces easy access to information."
+  },
+  {
+    "label": "Loan Completion",
+    "question": "How will I know my loan is completely finished?",
+    "answer": "The bank will confirm loan closure and provide a no-dues or closure certificate.",
+    "reasoning": "Confirms formal end-of-loan steps."
+  },
+  {
+    "label": "Credit Score",
+    "question": "Does paying off a loan improve my credit score?",
+    "answer": "Paying off a loan responsibly can positively reflect on your credit history over time.",
+    "reasoning": "Accurate but avoids guaranteed outcomes."
+  },
+  {
+    "label": "Customer Support",
+    "question": "Is there someone I can talk to if I’m confused?",
+    "answer": "Yes, bank representatives are available through customer support or branches to help clarify any doubts.",
+    "reasoning": "Reassures availability of human help."
+  },
+  {
+    "label": "Loan Awareness",
+    "question": "Is it okay to take time before deciding on a loan?",
+    "answer": "Absolutely. Taking time to understand your options helps you make better financial decisions.",
+    "reasoning": "Encourages thoughtful decision-making."
+  },
+  {
+    "label": "General Help",
+    "question": "Can you explain loan terms in simple words?",
+    "answer": "Yes, I can help explain loan terms in a simple and clear way so they’re easier to understand.",
+    "reasoning": "Reinforces the assistant’s supportive role."
+  },
+
+
+
+
+
+  {
+    "label": "Loan Understanding",
+    "question": "Can you explain how a loan actually works from start to finish?",
+    "answer": "Sure. A loan starts with an application where the bank checks your eligibility. Once approved and documents are completed, the money is disbursed to you. You then repay the amount in monthly installments over an agreed period, including interest, until the loan is fully paid off.",
+    "reasoning": "Users often want a big-picture explanation rather than isolated details."
+  },
+  {
+    "label": "Interest Explanation",
+    "question": "Can you explain in simple terms how interest is charged on a loan?",
+    "answer": "Interest is the cost of borrowing money. The bank charges it as a percentage of the outstanding loan amount, and it is included in your monthly EMI along with the principal repayment.",
+    "reasoning": "Breaks down interest in plain language without formulas."
+  },
+  {
+    "label": "EMI Breakdown",
+    "question": "Why does my EMI have both principal and interest in it?",
+    "answer": "Each EMI includes two parts: one portion reduces the loan amount (principal), and the other is the interest charged by the bank. Over time, the interest part reduces and the principal part increases.",
+    "reasoning": "Explains amortization in an intuitive way."
+  },
+  {
+    "label": "Loan Tenure Impact",
+    "question": "How does choosing a longer loan period affect my total payment?",
+    "answer": "A longer loan period lowers your monthly EMI, but you end up paying more interest overall compared to a shorter tenure.",
+    "reasoning": "Users often misunderstand the long-term cost of longer tenures."
+  },
+  {
+    "label": "Credit Score Impact",
+    "question": "Can you explain how my loan affects my credit score over time?",
+    "answer": "Paying your EMIs on time can improve your credit score, while missed or delayed payments may lower it. The overall impact depends on consistency and repayment behavior.",
+    "reasoning": "Explains credit impact without fear-mongering."
+  },
+  {
+    "label": "Eligibility Criteria",
+    "question": "Why do banks check so many things before approving a loan?",
+    "answer": "Banks check multiple factors like income, credit history, and existing debts to ensure the loan is affordable and can be repaid comfortably.",
+    "reasoning": "Addresses user frustration with a rational explanation."
+  },
+  {
+    "label": "Loan Rejection",
+    "question": "If my loan is rejected, does that mean I did something wrong?",
+    "answer": "Not necessarily. Rejections can happen due to eligibility criteria, credit policies, or incomplete information, and are not a personal judgment.",
+    "reasoning": "Reduces emotional stress and stigma around rejection."
+  },
+  {
+    "label": "Prepayment Details",
+    "question": "How does paying extra money reduce my loan burden?",
+    "answer": "When you pay extra, it reduces the outstanding loan amount, which can lower future interest costs or shorten the loan duration, depending on the loan terms.",
+    "reasoning": "Explains the financial benefit of prepayments clearly."
+  },
+  {
+    "label": "Floating Rate Risk",
+    "question": "Can you explain the risk of choosing a floating interest rate?",
+    "answer": "A floating interest rate can go up or down based on market conditions, which means your EMI or loan tenure may change over time.",
+    "reasoning": "Clarifies risk without discouraging the option outright."
+  },
+  {
+    "label": "Fixed Rate Clarity",
+    "question": "Why do people choose fixed interest rate loans?",
+    "answer": "Fixed-rate loans offer predictable EMIs, making budgeting easier since the interest rate does not change during the agreed period.",
+    "reasoning": "Explains user preference in practical terms."
+  },
+  {
+    "label": "Loan Charges",
+    "question": "Can you explain what kind of extra charges usually come with loans?",
+    "answer": "Loans may include processing fees, late payment charges, or prepayment charges, which are detailed in the loan agreement.",
+    "reasoning": "Users often underestimate non-interest costs."
+  },
+  {
+    "label": "Documentation Purpose",
+    "question": "Why do banks insist so much on document verification?",
+    "answer": "Document verification helps banks confirm identity, income, and details to prevent fraud and ensure responsible lending.",
+    "reasoning": "Explains compliance without sounding accusatory."
+  },
+  {
+    "label": "Loan Transfer",
+    "question": "How does transferring a loan to another bank actually help?",
+    "answer": "A loan transfer can help if another bank offers a lower interest rate or better terms, which may reduce overall repayment cost.",
+    "reasoning": "Explains benefit while keeping expectations realistic."
+  },
+  {
+    "label": "EMI Failure",
+    "question": "What exactly happens when an EMI fails?",
+    "answer": "If an EMI fails, the bank may charge a penalty and report the delay, so it’s important to address it quickly.",
+    "reasoning": "Explains consequences calmly and clearly."
+  },
+  {
+    "label": "Loan Monitoring",
+    "question": "Why should I keep checking my loan account regularly?",
+    "answer": "Regular checks help you track payments, notice errors early, and stay aware of your remaining balance.",
+    "reasoning": "Encourages responsible financial habits."
+  },
+  {
+    "label": "Loan Closure Process",
+    "question": "What happens behind the scenes when a loan is closed?",
+    "answer": "After full repayment, the bank updates its records, closes the loan account, and issues confirmation documents to the borrower.",
+    "reasoning": "Explains backend steps users are curious about."
+  },
+  {
+    "label": "Loan Insurance Explanation",
+    "question": "How does loan insurance actually help in real life?",
+    "answer": "Loan insurance can help cover repayments in certain situations like disability or death, reducing financial stress for family members.",
+    "reasoning": "Explains purpose without selling the product."
+  },
+  {
+    "label": "Borrowing Decision",
+    "question": "How do I know if taking a loan is the right decision for me?",
+    "answer": "A loan can be helpful if repayments fit your budget and serve a clear purpose. It’s important to evaluate your financial comfort first.",
+    "reasoning": "Encourages responsible, user-centered decision-making."
+  },
+  {
+    "label": "Loan Responsibility",
+    "question": "Why do banks care so much about repayment behavior?",
+    "answer": "Repayment behavior helps banks assess trust and risk, which influences future loan decisions and credit access.",
+    "reasoning": "Explains institutional perspective in a neutral way."
+  },
+  {
+    "label": "General Guidance",
+    "question": "Can you explain loans in a way that’s easy to remember?",
+    "answer": "Think of a loan as borrowing money now and paying it back slowly with extra cost over time. Planning makes it manageable.",
+    "reasoning": "Summarizes the concept in a memorable, user-friendly way."
+  },
+
+
+
+
+
+
+  {
+    "label": "Loan Basics",
+    "question": "Why do banks lend money instead of keeping it with them?",
+    "answer": "Banks lend money to earn interest, which helps them grow funds while also supporting customers’ financial needs.",
+    "reasoning": "Explains the basic business model of banking in simple terms."
+  },
+  {
+    "label": "Loan Affordability",
+    "question": "How do I know if I can really afford a loan long-term?",
+    "answer": "You can assess affordability by checking if the EMI fits comfortably within your monthly income after essential expenses.",
+    "reasoning": "Encourages practical financial self-assessment."
+  },
+  {
+    "label": "Income Stability",
+    "question": "Why do banks care so much about job stability?",
+    "answer": "Stable income helps banks feel confident that EMIs will be paid regularly over the loan period.",
+    "reasoning": "Connects income stability to repayment reliability."
+  },
+  {
+    "label": "Multiple Loans",
+    "question": "Is it risky to have more than one loan at the same time?",
+    "answer": "Having multiple loans can increase financial pressure, so banks check whether combined EMIs are manageable.",
+    "reasoning": "Addresses common user concern without judgment."
+  },
+  {
+    "label": "Loan Approval Time",
+    "question": "Why does loan approval sometimes take longer than expected?",
+    "answer": "Delays can happen due to document checks, verification processes, or high application volumes.",
+    "reasoning": "Explains delays without blaming the user."
+  },
+  {
+    "label": "Online Loans",
+    "question": "How are online loan applications different from branch applications?",
+    "answer": "Online applications are usually faster and paperless, while branch applications offer in-person assistance.",
+    "reasoning": "Compares channels objectively."
+  },
+  {
+    "label": "Interest Variations",
+    "question": "Why do different people get different interest rates?",
+    "answer": "Interest rates vary based on credit score, income, loan amount, and risk assessment.",
+    "reasoning": "Explains personalization in lending."
+  },
+  {
+    "label": "Loan Offers",
+    "question": "Why do I sometimes receive loan offers even when I didn’t apply?",
+    "answer": "Banks may send offers based on your profile, account history, or credit eligibility.",
+    "reasoning": "Clarifies pre-approved offers realistically."
+  },
+  {
+    "label": "EMI Planning",
+    "question": "How can I plan my EMIs so they don’t stress me out?",
+    "answer": "Choosing the right loan amount and tenure helps keep EMIs within a comfortable range.",
+    "reasoning": "Promotes stress-free financial planning."
+  },
+  {
+    "label": "Loan Safety",
+    "question": "Is my personal information safe during loan processing?",
+    "answer": "Banks use security measures and regulations to protect customer information during processing.",
+    "reasoning": "Addresses privacy concerns calmly."
+  },
+  {
+    "label": "Partial Payments",
+    "question": "What happens if I pay a little extra whenever I can?",
+    "answer": "Extra payments can reduce the loan balance and overall interest, depending on loan terms.",
+    "reasoning": "Explains benefit without guarantees."
+  },
+  {
+    "label": "Loan Terms",
+    "question": "Why is it important to read the loan agreement carefully?",
+    "answer": "The agreement explains interest rates, charges, and responsibilities, helping avoid surprises later.",
+    "reasoning": "Encourages informed consent."
+  },
+  {
+    "label": "Loan Purpose",
+    "question": "Does the reason for taking a loan really matter?",
+    "answer": "Yes, loan purpose can affect eligibility, interest rate, and loan type offered by the bank.",
+    "reasoning": "Explains purpose-based lending."
+  },
+  {
+    "label": "Repayment Discipline",
+    "question": "Why do banks emphasize paying EMIs on time so much?",
+    "answer": "Timely payments show financial discipline and reduce risk for both the bank and the borrower.",
+    "reasoning": "Highlights mutual benefit."
+  },
+  {
+    "label": "Financial Stress",
+    "question": "What should I do if I start feeling stressed about repayments?",
+    "answer": "It’s best to review your finances early and talk to the bank about possible options or guidance.",
+    "reasoning": "Promotes proactive communication."
+  },
+  {
+    "label": "Loan Modifications",
+    "question": "Can loan terms ever be changed after approval?",
+    "answer": "Some changes may be possible under specific conditions, subject to bank policies.",
+    "reasoning": "Keeps expectations realistic."
+  },
+  {
+    "label": "Account Monitoring",
+    "question": "Why should I keep my contact details updated with the bank?",
+    "answer": "Updated details ensure you receive important alerts, reminders, and loan-related information.",
+    "reasoning": "Explains a simple but important habit."
+  },
+  {
+    "label": "Loan Experience",
+    "question": "What makes a loan experience smooth for customers?",
+    "answer": "Clear communication, timely payments, and understanding loan terms usually lead to a smooth experience.",
+    "reasoning": "Summarizes best practices simply."
+  },
+  {
+    "label": "Financial Planning",
+    "question": "How does taking a loan fit into long-term financial planning?",
+    "answer": "When planned well, loans can support goals while maintaining financial balance.",
+    "reasoning": "Positions loans as tools, not burdens."
+  },
+  {
+    "label": "Customer Confidence",
+    "question": "How can I feel more confident before taking a loan?",
+    "answer": "Understanding the loan details and your repayment ability helps build confidence.",
+    "reasoning": "Encourages knowledge-based confidence."
+  },
+
+
+
+
+
+
+  {
+    "label": "Loan Fundamentals",
+    "question": "Can you explain why interest rates exist and why banks charge them?",
+    "answer": "Interest rates exist because lending money has a cost and a risk. Banks use interest to cover operational costs, manage risk, and earn revenue while providing funds to borrowers.",
+    "reasoning": "Users often want to understand the purpose of interest beyond just paying extra money."
+  },
+  {
+    "label": "Credit Evaluation",
+    "question": "Can you explain how banks decide whether someone is risky or safe to lend to?",
+    "answer": "Banks assess risk by reviewing income stability, credit history, existing debts, and repayment behavior to estimate the likelihood of timely repayment.",
+    "reasoning": "Explains risk assessment without technical scoring models."
+  },
+  {
+    "label": "Credit Score Mechanics",
+    "question": "How does a credit score actually get calculated over time?",
+    "answer": "Credit scores are influenced by factors such as payment history, outstanding balances, credit usage, loan duration, and consistency in repayments over time.",
+    "reasoning": "Users want to understand score movement, not just its importance."
+  },
+  {
+    "label": "Loan Structuring",
+    "question": "Why is a loan broken into EMIs instead of one large payment?",
+    "answer": "Breaking a loan into EMIs makes repayment manageable by spreading the cost over time instead of requiring a large lump-sum payment.",
+    "reasoning": "Explains the practicality behind EMI structures."
+  },
+  {
+    "label": "Interest Accumulation",
+    "question": "Can you explain why interest costs are higher at the beginning of a loan?",
+    "answer": "At the beginning, the loan balance is highest, so interest calculated on it is also higher. As the balance reduces, interest gradually decreases.",
+    "reasoning": "Clarifies a common source of confusion."
+  },
+  {
+    "label": "Loan Tenure Choice",
+    "question": "How should someone decide the right loan tenure?",
+    "answer": "The right tenure balances affordable monthly payments with minimizing total interest paid, based on income and long-term financial comfort.",
+    "reasoning": "Encourages thoughtful decision-making."
+  },
+  {
+    "label": "Fixed vs Floating Rates",
+    "question": "Can you explain the long-term difference between fixed and floating interest rates?",
+    "answer": "Fixed rates offer predictable payments, while floating rates can change with market conditions, potentially lowering or increasing total repayment over time.",
+    "reasoning": "Provides a long-term perspective instead of short-term comparison."
+  },
+  {
+    "label": "Loan Risk Management",
+    "question": "Why do banks require so many checks before giving large loans?",
+    "answer": "Larger loans involve higher risk, so banks perform deeper checks to ensure repayment capacity and financial stability.",
+    "reasoning": "Explains stricter scrutiny logically."
+  },
+  {
+    "label": "Prepayment Impact",
+    "question": "How exactly does prepaying a loan reduce the total interest paid?",
+    "answer": "Prepayment reduces the outstanding balance earlier, which lowers the amount on which future interest is calculated.",
+    "reasoning": "Explains cause-and-effect clearly."
+  },
+  {
+    "label": "Loan Monitoring",
+    "question": "Why is it important to track loan statements regularly?",
+    "answer": "Tracking statements helps ensure payments are recorded correctly and allows early detection of errors or missed EMIs.",
+    "reasoning": "Encourages proactive financial behavior."
+  },
+  {
+    "label": "Debt Management",
+    "question": "Can you explain how too many loans affect financial health?",
+    "answer": "Multiple loans increase monthly obligations and reduce financial flexibility, making it harder to handle emergencies.",
+    "reasoning": "Explains debt stress in practical terms."
+  },
+  {
+    "label": "Loan Compliance",
+    "question": "Why do banks follow strict rules while giving loans?",
+    "answer": "Banks follow regulations to ensure fair lending, prevent fraud, and protect both customers and the financial system.",
+    "reasoning": "Explains compliance without sounding bureaucratic."
+  },
+  {
+    "label": "Loan Transparency",
+    "question": "How can borrowers ensure they fully understand a loan before signing?",
+    "answer": "Borrowers should review the agreement, ask questions, and clarify interest rates, charges, and repayment terms.",
+    "reasoning": "Promotes informed consent."
+  },
+  {
+    "label": "Loan Lifecycle",
+    "question": "What are the main stages of a loan’s life?",
+    "answer": "A loan typically goes through application, approval, disbursement, repayment, and closure stages.",
+    "reasoning": "Provides a structured overview."
+  },
+  {
+    "label": "Financial Responsibility",
+    "question": "Why is loan repayment considered a long-term responsibility?",
+    "answer": "Loan repayment affects monthly budgeting, credit history, and future financial opportunities over an extended period.",
+    "reasoning": "Frames loans as ongoing commitments."
+  },
+  {
+    "label": "Borrower Behavior",
+    "question": "How does repayment behavior influence future loan options?",
+    "answer": "Consistent repayment builds trust with lenders, which can lead to better terms or easier approvals later.",
+    "reasoning": "Connects present behavior to future benefits."
+  },
+  {
+    "label": "Loan Adjustment",
+    "question": "Why can loan terms sometimes be renegotiated?",
+    "answer": "Renegotiation may happen when financial conditions change and policies allow adjustments to support repayment continuity.",
+    "reasoning": "Explains flexibility without guarantees."
+  },
+  {
+    "label": "Financial Awareness",
+    "question": "How does understanding loans help avoid financial mistakes?",
+    "answer": "Understanding loans helps borrowers plan better, avoid over-borrowing, and manage repayments responsibly.",
+    "reasoning": "Connects knowledge with better outcomes."
+  },
+  {
+    "label": "Loan Psychology",
+    "question": "Why do people often underestimate loan commitments?",
+    "answer": "People may focus on immediate benefits and overlook long-term repayment effort, which detailed planning can prevent.",
+    "reasoning": "Explains behavioral bias simply."
+  },
+  {
+    "label": "Overall Guidance",
+    "question": "What’s the most important thing to remember before taking any loan?",
+    "answer": "The most important thing is ensuring repayments fit comfortably within your financial situation over time.",
+    "reasoning": "Ends with a strong, practical takeaway."
+  },
+
+
+
+
+
+
+
+  {
+    "label": "Loan Planning",
+    "question": "Can you explain how taking a loan affects my monthly budget in the long run?",
+    "answer": "A loan adds a fixed monthly EMI to your budget, which reduces the money available for savings and daily expenses. Over time, this requires careful planning to avoid financial strain.",
+    "reasoning": "Users want to understand long-term budget impact, not just EMI amount."
+  },
+  {
+    "label": "Risk Assessment",
+    "question": "Why do banks focus so much on future income instead of current savings?",
+    "answer": "Banks rely on future income because EMIs are paid monthly over time, and stable income ensures consistent repayment.",
+    "reasoning": "Explains lending logic clearly and realistically."
+  },
+  {
+    "label": "Loan Repayment Structure",
+    "question": "How does the bank decide how much of my EMI goes to interest and principal?",
+    "answer": "The split is based on the outstanding loan balance. Early on, interest is higher, and as the balance reduces, more of the EMI goes toward principal.",
+    "reasoning": "Clarifies EMI structure without technical formulas."
+  },
+  {
+    "label": "Loan Tenure Tradeoff",
+    "question": "Why does a shorter loan tenure save money overall?",
+    "answer": "Shorter tenures reduce the time interest is charged, lowering the total interest paid even though monthly EMIs are higher.",
+    "reasoning": "Explains cost-versus-comfort tradeoff."
+  },
+  {
+    "label": "Credit Health",
+    "question": "How does a long loan period affect my credit profile?",
+    "answer": "A longer loan shows ongoing responsibility if paid on time, but missed payments over a long period can negatively impact credit history.",
+    "reasoning": "Shows both positive and negative sides."
+  },
+  {
+    "label": "Loan Approval Logic",
+    "question": "Why does approval depend on both income and credit history?",
+    "answer": "Income shows repayment ability, while credit history shows repayment behavior. Banks use both to assess overall reliability.",
+    "reasoning": "Explains dual-factor assessment simply."
+  },
+  {
+    "label": "Loan Pricing",
+    "question": "How do banks decide what interest rate to offer a borrower?",
+    "answer": "Interest rates are based on risk level, credit score, income stability, loan amount, and market conditions.",
+    "reasoning": "Explains personalized pricing clearly."
+  },
+  {
+    "label": "Loan Rejection Insight",
+    "question": "What can someone learn from a loan rejection?",
+    "answer": "A rejection can highlight areas like credit score, income, or documentation that may need improvement before reapplying.",
+    "reasoning": "Turns rejection into learning opportunity."
+  },
+  {
+    "label": "Financial Flexibility",
+    "question": "Why is it important to leave room for emergencies while taking a loan?",
+    "answer": "Unexpected expenses can arise, and having financial flexibility helps ensure EMIs are paid without stress.",
+    "reasoning": "Encourages emergency planning."
+  },
+  {
+    "label": "Loan Adjustment Options",
+    "question": "How do banks help borrowers during financial difficulties?",
+    "answer": "Depending on policy, banks may offer options like tenure changes or payment restructuring to support repayment.",
+    "reasoning": "Explains hardship support carefully."
+  },
+  {
+    "label": "Borrowing Limits",
+    "question": "Why don’t banks approve the maximum loan amount for everyone?",
+    "answer": "Banks limit loan amounts to ensure repayments remain affordable and reduce the risk of default.",
+    "reasoning": "Explains conservative lending behavior."
+  },
+  {
+    "label": "Loan Transparency",
+    "question": "How can borrowers spot confusing or unclear loan terms?",
+    "answer": "Borrowers should look for unclear fee descriptions, variable conditions, and ask for explanations before signing.",
+    "reasoning": "Encourages critical reading."
+  },
+  {
+    "label": "Prepayment Strategy",
+    "question": "Is it better to prepay early or later in the loan period?",
+    "answer": "Prepaying earlier usually saves more interest because it reduces the outstanding balance sooner.",
+    "reasoning": "Explains timing advantage."
+  },
+  {
+    "label": "Financial Discipline",
+    "question": "How does a loan change spending habits over time?",
+    "answer": "Loans often encourage more careful budgeting, as a fixed EMI becomes a regular financial responsibility.",
+    "reasoning": "Explains behavioral impact."
+  },
+  {
+    "label": "Loan Monitoring",
+    "question": "Why is checking loan balance regularly a good habit?",
+    "answer": "It helps track progress, plan prepayments, and avoid surprises related to outstanding amounts.",
+    "reasoning": "Promotes proactive awareness."
+  },
+  {
+    "label": "Loan Communication",
+    "question": "Why is clear communication with the bank important during the loan period?",
+    "answer": "Clear communication helps resolve issues early and prevents misunderstandings about payments or terms.",
+    "reasoning": "Encourages openness."
+  },
+  {
+    "label": "Loan Completion Impact",
+    "question": "What financial changes usually happen after finishing a loan?",
+    "answer": "After loan closure, monthly expenses reduce, improving savings potential and financial flexibility.",
+    "reasoning": "Explains post-loan benefits."
+  },
+  {
+    "label": "Loan Awareness",
+    "question": "Why do experts advise against emotional borrowing decisions?",
+    "answer": "Emotional decisions may overlook repayment capacity, leading to stress later. Planning helps avoid this.",
+    "reasoning": "Addresses emotional bias."
+  },
+  {
+    "label": "Long-Term Planning",
+    "question": "How should loans fit into long-term financial goals?",
+    "answer": "Loans should support important goals while still allowing savings and emergency planning.",
+    "reasoning": "Aligns loans with future goals."
+  },
+  {
+    "label": "Key Takeaway",
+    "question": "What mindset should someone have before committing to a loan?",
+    "answer": "They should focus on long-term affordability, responsibility, and financial balance rather than short-term benefits.",
+    "reasoning": "Ends with a strong conceptual summary."
+  },
+
+
+
+
+
+
+  {
+    "label": "Hypothetical Income Loss",
+    "question": "Suppose I take a loan and later lose my job, what usually happens?",
+    "answer": "If income stops, it’s important to inform the bank early. Banks may guide you on available options based on policy, but communication is key.",
+    "reasoning": "Handles a sensitive imagined scenario without promising outcomes."
+  },
+  {
+    "label": "Unexpected Expense Scenario",
+    "question": "Imagine I suddenly have a big medical expense while paying a loan, what should I do?",
+    "answer": "In such cases, reviewing finances and informing the bank early can help you understand possible support or adjustments.",
+    "reasoning": "Encourages proactive action in a realistic emergency."
+  },
+  {
+    "label": "Over-Borrowing Scenario",
+    "question": "What if I realize later that I borrowed more than I actually needed?",
+    "answer": "If you have extra funds, you may consider prepaying part of the loan to reduce interest and overall burden, subject to terms.",
+    "reasoning": "Explains corrective action calmly."
+  },
+  {
+    "label": "Missed EMI Scenario",
+    "question": "Suppose I miss one EMI by mistake, is it a big problem?",
+    "answer": "One missed EMI can usually be addressed if resolved quickly, but repeated delays may affect charges and credit history.",
+    "reasoning": "Keeps the response realistic and non-alarming."
+  },
+  {
+    "label": "Multiple Loans Scenario",
+    "question": "Imagine I already have one loan and I’m thinking of taking another, is that risky?",
+    "answer": "Having multiple loans increases monthly obligations, so banks assess whether combined EMIs remain affordable.",
+    "reasoning": "Addresses compounding risk logically."
+  },
+  {
+    "label": "Early Closure Scenario",
+    "question": "What if I suddenly get extra money and want to close my loan early?",
+    "answer": "Early closure is usually possible, and it can reduce interest costs, though some loans may have specific conditions.",
+    "reasoning": "Explains opportunity without guaranteeing zero charges."
+  },
+  {
+    "label": "Income Increase Scenario",
+    "question": "Suppose my salary increases after taking a loan, what’s the best way to use that?",
+    "answer": "Some people use increased income to prepay loans or increase savings, depending on financial goals.",
+    "reasoning": "Keeps advice neutral and flexible."
+  },
+  {
+    "label": "Late Realization Scenario",
+    "question": "What if I realize I didn’t fully understand the loan terms after signing?",
+    "answer": "You can review the agreement again and contact the bank for clarification to better understand your obligations.",
+    "reasoning": "Encourages clarification instead of panic."
+  },
+  {
+    "label": "EMI Stress Scenario",
+    "question": "Imagine my EMI starts feeling stressful every month, what should I do?",
+    "answer": "If EMIs feel stressful, reviewing expenses and discussing possible options with the bank early may help.",
+    "reasoning": "Promotes early intervention."
+  },
+  {
+    "label": "Loan Offer Confusion",
+    "question": "Suppose I get multiple loan offers at the same time, how do I choose?",
+    "answer": "Comparing interest rates, charges, and repayment flexibility can help you choose the most suitable option.",
+    "reasoning": "Addresses decision overload."
+  },
+  {
+    "label": "Temporary Income Drop",
+    "question": "What if my income drops for a few months but then recovers?",
+    "answer": "Temporary changes should still be communicated to the bank so they can guide you on possible solutions.",
+    "reasoning": "Reinforces communication as key."
+  },
+  {
+    "label": "Family Responsibility Scenario",
+    "question": "Imagine I suddenly have new family responsibilities after taking a loan, what should I consider?",
+    "answer": "New responsibilities affect budgeting, so reviewing finances and prioritizing essential expenses becomes important.",
+    "reasoning": "Connects life changes to financial planning."
+  },
+  {
+    "label": "Loan Regret Scenario",
+    "question": "What if I start regretting taking a loan halfway through?",
+    "answer": "Regret can happen, but understanding options like prepayment or budgeting adjustments can help reduce stress.",
+    "reasoning": "Addresses emotional response constructively."
+  },
+  {
+    "label": "Payment Method Scenario",
+    "question": "Suppose I forget to keep money in my account for EMI day, what happens?",
+    "answer": "If funds are insufficient, the EMI may fail, so keeping track of payment dates is important.",
+    "reasoning": "Explains consequences clearly."
+  },
+  {
+    "label": "Long-Term Loan Scenario",
+    "question": "Imagine I take a very long-term loan, how does that affect my future plans?",
+    "answer": "Long-term loans require consistent planning since they influence budgeting and savings over many years.",
+    "reasoning": "Explains long-term commitment impact."
+  },
+  {
+    "label": "Life Change Scenario",
+    "question": "What if my life situation changes completely after taking a loan?",
+    "answer": "Major life changes should prompt a review of finances and early communication with the bank if needed.",
+    "reasoning": "Keeps response broad and adaptable."
+  },
+  {
+    "label": "Confidence Scenario",
+    "question": "Suppose I’m unsure but still considering a loan, what’s the safest way to move forward?",
+    "answer": "Taking time to understand terms and ensuring EMI comfort before committing is usually the safest approach.",
+    "reasoning": "Encourages caution and understanding."
+  },
+  {
+    "label": "Worst-Case Thinking",
+    "question": "What if everything goes wrong financially after I take a loan?",
+    "answer": "Planning conservatively and staying in touch with the bank early can help manage difficult situations better.",
+    "reasoning": "Addresses anxiety without fear-based messaging."
+  },
+  {
+    "label": "Decision Delay Scenario",
+    "question": "Suppose I need more time before deciding, is that okay?",
+    "answer": "Yes, taking time to decide helps ensure the loan fits your financial comfort and goals.",
+    "reasoning": "Validates thoughtful decision-making."
+  },
+  {
+    "label": "Imaginary Planning",
+    "question": "Imagine I plan everything perfectly, what makes a loan manageable?",
+    "answer": "A manageable loan has affordable EMIs, clear terms, and fits well within long-term financial planning.",
+    "reasoning": "Ends with a positive, ideal-case summary."
+  },
+
+
+
+
+
+  {
+    "label": "Career Change Scenario",
+    "question": "Suppose I want to change my job while I’m already repaying a loan, is that risky?",
+    "answer": "Changing jobs can be fine if income remains stable. It’s important to ensure EMIs can still be paid comfortably during the transition.",
+    "reasoning": "Addresses common career-change anxiety realistically."
+  },
+  {
+    "label": "Delayed Income Scenario",
+    "question": "What if my salary gets delayed for a month and EMI is due?",
+    "answer": "If salary delays happen, maintaining some savings or informing the bank early can help avoid missed payments.",
+    "reasoning": "Encourages preparation and early communication."
+  },
+  {
+    "label": "Freelance Income Scenario",
+    "question": "Imagine I become a freelancer after taking a loan, how does that affect repayment?",
+    "answer": "Freelancing may cause income fluctuations, so careful budgeting and savings become more important to manage EMIs.",
+    "reasoning": "Explains income variability impact."
+  },
+  {
+    "label": "Relocation Scenario",
+    "question": "Suppose I move to another city or country while repaying a loan, what should I consider?",
+    "answer": "You should ensure access to payment methods and keep your contact details updated with the bank.",
+    "reasoning": "Covers practical concerns of relocation."
+  },
+  {
+    "label": "Emergency Savings Scenario",
+    "question": "What if I don’t have emergency savings but already have a loan?",
+    "answer": "Without emergency savings, it’s important to budget carefully and start building a safety cushion alongside repayments.",
+    "reasoning": "Promotes gradual financial resilience."
+  },
+  {
+    "label": "Loan Prioritization Scenario",
+    "question": "Suppose I have both a loan and savings goals, which should I focus on?",
+    "answer": "Balancing both is important. Paying EMIs on time while saving gradually helps maintain financial stability.",
+    "reasoning": "Avoids extreme advice."
+  },
+  {
+    "label": "Family Support Scenario",
+    "question": "What if my family depends on my income while I have a loan?",
+    "answer": "In such cases, choosing affordable EMIs and maintaining emergency funds becomes especially important.",
+    "reasoning": "Acknowledges family responsibility."
+  },
+  {
+    "label": "Unexpected Bonus Scenario",
+    "question": "Suppose I receive a bonus during my loan period, how should I use it?",
+    "answer": "Bonuses can be used for prepayment, savings, or future expenses depending on your priorities and loan terms.",
+    "reasoning": "Keeps guidance flexible."
+  },
+  {
+    "label": "Health Concern Scenario",
+    "question": "What if I face health issues that affect my ability to work?",
+    "answer": "Health concerns can impact income, so reviewing finances early and contacting the bank for guidance may help.",
+    "reasoning": "Handles sensitive topic carefully."
+  },
+  {
+    "label": "Loan Extension Scenario",
+    "question": "Suppose I need more time to repay my loan, what happens?",
+    "answer": "Some banks may allow tenure extensions based on policy, which can reduce EMI but increase total interest.",
+    "reasoning": "Explains trade-offs clearly."
+  },
+  {
+    "label": "Unexpected Responsibility Scenario",
+    "question": "What if I suddenly have to support someone financially while repaying a loan?",
+    "answer": "Additional responsibilities require reworking your budget to ensure EMIs and essential expenses remain manageable.",
+    "reasoning": "Connects life changes to budgeting."
+  },
+  {
+    "label": "Loan Confidence Scenario",
+    "question": "Suppose I feel confident now but worry about the future, is that normal?",
+    "answer": "Yes, it’s normal. Planning conservatively and staying informed can help manage future uncertainty.",
+    "reasoning": "Normalizes uncertainty."
+  },
+  {
+    "label": "Lifestyle Change Scenario",
+    "question": "What if my lifestyle expenses increase after taking a loan?",
+    "answer": "Higher expenses can affect EMI comfort, so reviewing spending and adjusting priorities is important.",
+    "reasoning": "Promotes expense awareness."
+  },
+  {
+    "label": "Loan Insurance Scenario",
+    "question": "Suppose I’m worried about worst-case situations, should I consider loan insurance?",
+    "answer": "Loan insurance can offer protection in specific situations, but it’s important to understand coverage details.",
+    "reasoning": "Provides balanced view."
+  },
+  {
+    "label": "Long-Term Stress Scenario",
+    "question": "What if repaying a loan starts affecting my peace of mind?",
+    "answer": "Financial stress is a sign to review finances and seek guidance early before issues grow larger.",
+    "reasoning": "Encourages early intervention."
+  },
+  {
+    "label": "Unexpected Opportunity Scenario",
+    "question": "Suppose I get a chance to invest while repaying a loan, what should I think about?",
+    "answer": "You should balance potential returns against repayment obligations and financial safety.",
+    "reasoning": "Avoids financial advice while encouraging balance."
+  },
+  {
+    "label": "Loan Awareness Scenario",
+    "question": "What if I realize later that I didn’t plan enough before taking the loan?",
+    "answer": "You can still plan better moving forward by budgeting carefully and understanding your options.",
+    "reasoning": "Encourages corrective action."
+  },
+  {
+    "label": "Support Network Scenario",
+    "question": "Suppose I don’t have anyone to guide me financially, what should I do?",
+    "answer": "Using bank support services and reliable financial information can help you make informed decisions.",
+    "reasoning": "Promotes institutional support."
+  },
+  {
+    "label": "Future Uncertainty Scenario",
+    "question": "What if I’m unsure about my future income stability?",
+    "answer": "Choosing conservative loan amounts and building savings can help manage uncertainty.",
+    "reasoning": "Encourages conservative planning."
+  },
+  {
+    "label": "Best-Case Planning Scenario",
+    "question": "Imagine everything goes as planned, what keeps a loan stress-free?",
+    "answer": "Clear understanding, affordable EMIs, and consistent repayments help keep loans stress-free.",
+    "reasoning": "Ends on a positive, ideal-case note."
+  },
+
+
+
+
+
+  {
+    "label": "Job Switch Worry",
+    "question": "Let’s say I switch jobs and there’s a gap of a month or two, should I be worried about my loan?",
+    "answer": "A short gap isn’t unusual, but it’s important to have some savings to cover EMIs during that time. Planning ahead helps a lot.",
+    "reasoning": "Sounds supportive and realistic, without panic or promises."
+  },
+  {
+    "label": "Salary Cut Scenario",
+    "question": "What if my salary gets reduced after I’ve already taken the loan?",
+    "answer": "If your income drops, it’s a good idea to revisit your budget early and see how comfortable the EMI still feels.",
+    "reasoning": "Keeps the tone calm and practical."
+  },
+  {
+    "label": "Lifestyle Reality Check",
+    "question": "Suppose I realize my lifestyle is costing more than I expected after taking a loan, what then?",
+    "answer": "That happens to many people. Cutting back a little and tracking expenses can help make things feel more manageable.",
+    "reasoning": "Very human and reassuring."
+  },
+  {
+    "label": "Forgetful Moment",
+    "question": "What if I completely forget about an EMI one month?",
+    "answer": "It can happen. If you notice it quickly, fixing it early helps reduce issues like extra charges.",
+    "reasoning": "Normalizes small mistakes without encouraging them."
+  },
+  {
+    "label": "Overthinking Scenario",
+    "question": "Imagine I keep overthinking my loan every month, is that normal?",
+    "answer": "Yes, many people feel that way at first. It usually gets easier once repayments become part of your routine.",
+    "reasoning": "Addresses emotional behavior naturally."
+  },
+  {
+    "label": "Unexpected Help",
+    "question": "What if a family member offers to help me repay my loan?",
+    "answer": "If you’re comfortable with it, that support can reduce stress, but it’s still good to stay clear about responsibilities.",
+    "reasoning": "Balanced, human response."
+  },
+  {
+    "label": "Second Thoughts",
+    "question": "Suppose I start thinking I rushed into taking this loan, what should I do?",
+    "answer": "Feeling unsure is common. Reviewing your plan and understanding your options can help you feel more in control.",
+    "reasoning": "Avoids judgment and reassures."
+  },
+  {
+    "label": "Small Wins",
+    "question": "What if I feel happy seeing my loan balance slowly go down?",
+    "answer": "That’s a good sign. Tracking progress often motivates people to stay consistent with repayments.",
+    "reasoning": "Positive reinforcement."
+  },
+  {
+    "label": "Bonus Temptation",
+    "question": "Suppose I get a bonus and I’m confused whether to spend it or use it for my loan?",
+    "answer": "That’s a common dilemma. Some people split it between enjoyment and loan repayment to keep balance.",
+    "reasoning": "Sounds like real-life advice, not financial preaching."
+  },
+  {
+    "label": "Peer Pressure",
+    "question": "What if my friends say taking a loan was a bad idea and it makes me doubt myself?",
+    "answer": "Everyone’s situation is different. What matters most is whether the loan works for your own finances.",
+    "reasoning": "Emotionally supportive and grounding."
+  },
+  {
+    "label": "Future Anxiety",
+    "question": "Imagine I keep worrying about future EMIs even though I’m fine now, is that healthy?",
+    "answer": "Some concern is normal, but focusing on what you can manage today usually helps reduce anxiety.",
+    "reasoning": "Human, empathetic response."
+  },
+  {
+    "label": "Spending Guilt",
+    "question": "What if I feel guilty spending money while I still have a loan?",
+    "answer": "It’s okay to spend mindfully. A loan doesn’t mean you can’t enjoy life, just that balance matters.",
+    "reasoning": "Very human and relatable."
+  },
+  {
+    "label": "Confidence Growth",
+    "question": "Suppose paying my loan on time makes me feel more confident, is that normal?",
+    "answer": "Absolutely. Managing a loan responsibly often builds financial confidence over time.",
+    "reasoning": "Positive emotional reinforcement."
+  },
+  {
+    "label": "Unexpected Calm",
+    "question": "What if I expected loan repayment to be stressful, but it isn’t?",
+    "answer": "That usually means the loan fits your budget well, which is a good sign.",
+    "reasoning": "Affirms good planning."
+  },
+  {
+    "label": "Long-Term Thinking",
+    "question": "Imagine I start thinking long-term because of this loan, is that common?",
+    "answer": "Yes, loans often make people more aware of planning and future decisions.",
+    "reasoning": "Connects loans to maturity."
+  },
+  {
+    "label": "Minor Panic",
+    "question": "What if I panic every time I check my loan app?",
+    "answer": "That feeling usually fades with time. Understanding the numbers can make them feel less scary.",
+    "reasoning": "Empathetic and calming."
+  },
+  {
+    "label": "Routine Comfort",
+    "question": "Suppose paying EMIs becomes part of my routine, is that a good thing?",
+    "answer": "Yes, when it feels routine, it usually means you’ve adjusted well to the responsibility.",
+    "reasoning": "Normalizes adaptation."
+  },
+  {
+    "label": "Self-Doubt",
+    "question": "What if I doubt my financial decisions a lot after taking a loan?",
+    "answer": "Doubt is normal. Learning and adjusting over time is part of becoming financially confident.",
+    "reasoning": "Very human growth framing."
+  },
+  {
+    "label": "Quiet Relief",
+    "question": "Imagine I feel relieved after taking the loan instead of stressed, is that okay?",
+    "answer": "Yes, if the loan solves a real need and fits your budget, relief makes sense.",
+    "reasoning": "Validates emotional response."
+  },
+  {
+    "label": "Looking Back",
+    "question": "What if later I look back and feel proud of handling my loan well?",
+    "answer": "That’s a great outcome. Responsible repayment often builds confidence and financial discipline.",
+    "reasoning": "Ends on a positive, human note."
+  },
+
+
+
+
+
+  {
+    "label": "Loan Basics",
+    "question": "Can you explain a loan to me in very simple terms?",
+    "answer": "Sure. A loan is money you borrow now and pay back slowly over time, along with some extra cost called interest.",
+    "reasoning": "Uses plain language for basic understanding."
+  },
+  {
+    "label": "EMI Clarity",
+    "question": "Why do I have to pay the same EMI every month?",
+    "answer": "The EMI stays the same so it’s easier to plan your monthly expenses without surprises.",
+    "reasoning": "Explains predictability in a human way."
+  },
+  {
+    "label": "Interest Understanding",
+    "question": "Why does interest feel so confusing?",
+    "answer": "It can feel confusing because it changes over time, but it’s simply the cost of borrowing the remaining loan amount.",
+    "reasoning": "Acknowledges confusion and simplifies it."
+  },
+  {
+    "label": "Loan Comfort",
+    "question": "How do I know if my EMI is actually affordable?",
+    "answer": "If you can pay it comfortably after your regular expenses and still save a little, it’s usually affordable.",
+    "reasoning": "Relates affordability to daily life."
+  },
+  {
+    "label": "Application Process",
+    "question": "Is applying for a loan a long process?",
+    "answer": "It can be quick or take some time, depending on document checks and verification.",
+    "reasoning": "Sets realistic expectations."
+  },
+  {
+    "label": "Approval Confusion",
+    "question": "Does loan approval mean the money is already mine?",
+    "answer": "Approval means the bank agrees in principle. The money is given after final steps are completed.",
+    "reasoning": "Clarifies a common misunderstanding."
+  },
+  {
+    "label": "Payment Method",
+    "question": "Do I need to manually pay my EMI every month?",
+    "answer": "Most loans use auto-debit, so the EMI is taken automatically from your account.",
+    "reasoning": "Explains convenience simply."
+  },
+  {
+    "label": "Loan Tracking",
+    "question": "How can I keep track of my loan without stress?",
+    "answer": "Checking your loan details occasionally through the bank app usually keeps things under control.",
+    "reasoning": "Encourages light monitoring."
+  },
+  {
+    "label": "Loan Duration",
+    "question": "Why do some loans last so many years?",
+    "answer": "Longer loans spread payments out, making EMIs smaller and easier to manage monthly.",
+    "reasoning": "Explains long tenure purpose."
+  },
+  {
+    "label": "Short Tenure Choice",
+    "question": "Is it better to finish a loan as early as possible?",
+    "answer": "Finishing early can save interest, but it should still feel comfortable for your monthly budget.",
+    "reasoning": "Balanced, non-pushy advice."
+  },
+  {
+    "label": "Loan Charges",
+    "question": "Besides interest, what else should I look out for?",
+    "answer": "You should check for processing fees, late payment charges, or other listed costs in the agreement.",
+    "reasoning": "Highlights hidden-cost awareness."
+  },
+  {
+    "label": "Loan Agreement",
+    "question": "Is the loan agreement really that important to read?",
+    "answer": "Yes, it explains what you’re agreeing to, including payments, charges, and responsibilities.",
+    "reasoning": "Encourages informed reading."
+  },
+  {
+    "label": "Credit Awareness",
+    "question": "Why does everyone say loans affect credit score so much?",
+    "answer": "Because repayment behavior shows how reliably you manage borrowed money.",
+    "reasoning": "Simple cause-and-effect explanation."
+  },
+  {
+    "label": "Missed Payment",
+    "question": "What usually happens if an EMI is late?",
+    "answer": "Late payments may lead to extra charges and can affect your credit record.",
+    "reasoning": "Clear but not alarming."
+  },
+  {
+    "label": "Customer Support",
+    "question": "Can I talk to someone if I don’t understand my loan?",
+    "answer": "Yes, banks usually have support teams to help explain loan details.",
+    "reasoning": "Encourages asking for help."
+  },
+  {
+    "label": "Loan Confidence",
+    "question": "Is it okay to feel unsure before taking a loan?",
+    "answer": "Yes, feeling unsure is normal and often means you’re thinking carefully.",
+    "reasoning": "Normalizes hesitation."
+  },
+  {
+    "label": "Repayment Mindset",
+    "question": "How do people usually stay consistent with EMIs?",
+    "answer": "Most people rely on auto-debit and simple budgeting to stay on track.",
+    "reasoning": "Reflects common behavior."
+  },
+  {
+    "label": "Loan Purpose",
+    "question": "Does the reason for taking a loan matter?",
+    "answer": "Yes, the purpose can affect the type of loan and terms offered.",
+    "reasoning": "Explains relevance of loan purpose."
+  },
+  {
+    "label": "Financial Growth",
+    "question": "Can handling a loan well actually help me financially?",
+    "answer": "Yes, managing a loan responsibly can build confidence and better financial habits.",
+    "reasoning": "Connects loans to growth."
+  },
+  {
+    "label": "General Reassurance",
+    "question": "Is taking a loan always a bad thing?",
+    "answer": "Not at all. When planned well, loans can be useful financial tools.",
+    "reasoning": "Counters negative bias calmly."
+  },
+
+
+
+
+
+
+   {
+    "label": "Loan Comparison",
+    "question": "How do I know which loan option is better for me?",
+    "answer": "You can compare interest rates, monthly payments, and how long you’ll be paying to see what fits your budget best.",
+    "reasoning": "Guides decision-making in simple terms."
+  },
+  {
+    "label": "EMI Planning",
+    "question": "How much of my monthly income should go toward EMIs?",
+    "answer": "Many people try to keep EMIs within a manageable portion of their income so daily expenses aren’t affected.",
+    "reasoning": "Avoids strict rules, keeps it realistic."
+  },
+  {
+    "label": "Loan Understanding",
+    "question": "Why do banks check income before giving a loan?",
+    "answer": "They want to make sure you can comfortably repay the loan without financial strain.",
+    "reasoning": "Explains intent behind checks."
+  },
+  {
+    "label": "Online Loans",
+    "question": "Are online loan applications safe?",
+    "answer": "They can be safe if you use trusted bank or official platforms and avoid sharing details casually.",
+    "reasoning": "Balances reassurance with caution."
+  },
+  {
+    "label": "Loan Timeline",
+    "question": "How long does it usually take to get loan money after approval?",
+    "answer": "It can range from the same day to a few days, depending on verification and bank processes.",
+    "reasoning": "Sets realistic expectations."
+  },
+  {
+    "label": "EMI Date",
+    "question": "Can I choose the date when my EMI gets deducted?",
+    "answer": "Many banks allow you to select a convenient EMI date during setup.",
+    "reasoning": "Answers a common practical question."
+  },
+  {
+    "label": "Multiple Loans",
+    "question": "Is it okay to have more than one loan at the same time?",
+    "answer": "It can be okay if your income supports all repayments comfortably.",
+    "reasoning": "Neutral and practical."
+  },
+  {
+    "label": "Loan Charges",
+    "question": "Why do banks charge a processing fee?",
+    "answer": "The fee covers administrative work like verification and paperwork.",
+    "reasoning": "Explains fees without sounding defensive."
+  },
+  {
+    "label": "Loan Closure",
+    "question": "How do I know when my loan is fully paid off?",
+    "answer": "The bank usually confirms closure and provides a completion document.",
+    "reasoning": "Clarifies end-of-loan steps."
+  },
+  {
+    "label": "Prepayment Awareness",
+    "question": "Can I pay extra sometimes to reduce my loan faster?",
+    "answer": "Many loans allow extra payments, but it’s good to check if any conditions apply.",
+    "reasoning": "Encourages informed action."
+  },
+  {
+    "label": "Loan Statements",
+    "question": "Do banks send loan statements like they do for accounts?",
+    "answer": "Yes, most banks provide loan statements showing payments and balance.",
+    "reasoning": "Normalizes loan tracking."
+  },
+  {
+    "label": "Interest Choice",
+    "question": "How do people choose between fixed and floating interest?",
+    "answer": "Some prefer stability with fixed rates, while others accept changes with floating rates.",
+    "reasoning": "Explains preference-based choice."
+  },
+  {
+    "label": "Repayment Ease",
+    "question": "What makes loan repayment easier over time?",
+    "answer": "Auto-debit, budgeting, and keeping track of payments usually help.",
+    "reasoning": "Highlights practical habits."
+  },
+  {
+    "label": "Loan Communication",
+    "question": "Will the bank remind me about EMIs?",
+    "answer": "Banks often send reminders through messages or email before deductions.",
+    "reasoning": "Answers reassurance-based query."
+  },
+  {
+    "label": "Loan Transparency",
+    "question": "Why do loan documents feel so long?",
+    "answer": "They cover many scenarios to make terms clear and avoid confusion later.",
+    "reasoning": "Explains complexity calmly."
+  },
+  {
+    "label": "Payment Flexibility",
+    "question": "Can I change my repayment method later?",
+    "answer": "In many cases, banks allow changes after reviewing the request.",
+    "reasoning": "Keeps response flexible."
+  },
+  {
+    "label": "Loan Stress",
+    "question": "Is it normal to feel a little stressed about loans?",
+    "answer": "Yes, many people feel that way at first, and it often eases with time.",
+    "reasoning": "Human and reassuring."
+  },
+  {
+    "label": "Financial Discipline",
+    "question": "Does having a loan make people more disciplined with money?",
+    "answer": "For many people, regular repayments encourage better planning.",
+    "reasoning": "Links behavior change naturally."
+  },
+  {
+    "label": "Loan Responsibility",
+    "question": "Why do banks care so much about repayment history?",
+    "answer": "It helps them understand how responsibly someone handles borrowed money.",
+    "reasoning": "Clear explanation of credit behavior."
+  },
+  {
+    "label": "General Guidance",
+    "question": "What’s the most important thing to remember about loans?",
+    "answer": "Borrow only what you can repay comfortably and understand the terms well.",
+    "reasoning": "Summarizes best practice simply."
+  },
+
+
+
+
+
+
+  {
+    "label": "First-Time Borrower",
+    "question": "I’ve never taken a loan before, where do people usually start?",
+    "answer": "Most people start by checking their budget and understanding how much they can repay comfortably.",
+    "reasoning": "Addresses beginner uncertainty naturally."
+  },
+  {
+    "label": "Loan Rejection Curiosity",
+    "question": "Why do some loan applications get rejected even when income seems fine?",
+    "answer": "Banks also look at credit history, existing loans, and overall financial stability.",
+    "reasoning": "Explains multi-factor decision making."
+  },
+  {
+    "label": "Loan Timing",
+    "question": "Is there a better time of year to apply for a loan?",
+    "answer": "Sometimes banks offer deals during certain periods, but eligibility matters more than timing.",
+    "reasoning": "Balances opportunity with realism."
+  },
+  {
+    "label": "Loan Fear",
+    "question": "Why do loans scare so many people?",
+    "answer": "Mostly because they involve long-term commitment and responsibility, which can feel overwhelming.",
+    "reasoning": "Explains emotional response."
+  },
+  {
+    "label": "EMI Breakdown",
+    "question": "Why does my EMI feel small but the total loan cost feels big?",
+    "answer": "Because interest adds up over time, even when monthly payments seem manageable.",
+    "reasoning": "Clarifies long-term effect."
+  },
+  {
+    "label": "Bank Comparison",
+    "question": "Should I talk to more than one bank before choosing a loan?",
+    "answer": "Yes, comparing options can help you find terms that suit you better.",
+    "reasoning": "Encourages informed choice."
+  },
+  {
+    "label": "Loan Awareness",
+    "question": "Why do banks keep talking about credit score so much?",
+    "answer": "It gives them a quick picture of how someone has handled credit in the past.",
+    "reasoning": "Explains importance simply."
+  },
+  {
+    "label": "Loan Lifestyle",
+    "question": "Does taking a loan change how people usually spend money?",
+    "answer": "Many people become more mindful about spending once they have regular repayments.",
+    "reasoning": "Relates loan impact to behavior."
+  },
+  {
+    "label": "EMI Stress Point",
+    "question": "Why does the first EMI feel more stressful than the rest?",
+    "answer": "Because it’s the start of a new responsibility, and new routines take time to settle.",
+    "reasoning": "Human emotional insight."
+  },
+  {
+    "label": "Loan Questions",
+    "question": "Is it okay to ask a lot of questions before taking a loan?",
+    "answer": "Absolutely. Asking questions helps you understand and feel confident about your decision.",
+    "reasoning": "Encourages healthy curiosity."
+  },
+  {
+    "label": "Loan Flexibility",
+    "question": "Are loan terms fixed forever once I agree?",
+    "answer": "Some parts stay fixed, but others can sometimes be changed after discussion with the bank.",
+    "reasoning": "Keeps expectations realistic."
+  },
+  {
+    "label": "Repayment Motivation",
+    "question": "What usually motivates people to repay loans on time?",
+    "answer": "Avoiding stress, keeping a good credit record, and peace of mind are common reasons.",
+    "reasoning": "Focuses on intrinsic motivation."
+  },
+  {
+    "label": "Loan Knowledge Gap",
+    "question": "Why don’t schools teach more about loans and finance?",
+    "answer": "Financial topics are often learned later in life, usually through experience.",
+    "reasoning": "Addresses broader curiosity."
+  },
+  {
+    "label": "Loan Planning",
+    "question": "Should loan planning include future expenses too?",
+    "answer": "Yes, thinking ahead helps ensure the loan remains comfortable over time.",
+    "reasoning": "Encourages foresight."
+  },
+  {
+    "label": "Loan Trust",
+    "question": "How do I know if I can trust a loan offer?",
+    "answer": "Checking the lender’s credibility and reading terms carefully usually helps.",
+    "reasoning": "Promotes cautious trust."
+  },
+  {
+    "label": "EMI Habit",
+    "question": "When does paying EMIs start to feel normal?",
+    "answer": "For most people, it feels routine after a few months of consistent payments.",
+    "reasoning": "Normalizes adaptation."
+  },
+  {
+    "label": "Loan vs Savings",
+    "question": "Should I use savings or take a loan for big expenses?",
+    "answer": "It depends on how much savings you have and how comfortable you feel using them.",
+    "reasoning": "Avoids one-size-fits-all advice."
+  },
+  {
+    "label": "Loan Decision Pressure",
+    "question": "Is it okay to take time before saying yes to a loan?",
+    "answer": "Yes, taking time helps ensure the decision feels right for you.",
+    "reasoning": "Supports thoughtful decisions."
+  },
+  {
+    "label": "Loan Clarity",
+    "question": "What’s the biggest mistake people make with loans?",
+    "answer": "Borrowing more than they can comfortably repay is a common one.",
+    "reasoning": "Highlights common pitfall."
+  },
+  {
+    "label": "General Comfort",
+    "question": "Can loans be managed without constant stress?",
+    "answer": "Yes, when planned well, loans often become just another part of monthly expenses.",
+    "reasoning": "Ends with reassurance."
+  },
+
+
+
+
+
+  {
+    "label": "Loan Curiosity",
+    "question": "Why do loan terms sound so complicated at first?",
+    "answer": "They cover many details to avoid confusion later, but once you break them down, they’re easier to understand.",
+    "reasoning": "Explains complexity without intimidation."
+  },
+  {
+    "label": "Real-Life Planning",
+    "question": "How do people plan vacations or big purchases while having a loan?",
+    "answer": "Most people plan ahead and adjust spending so both loan payments and goals fit together.",
+    "reasoning": "Connects loans to everyday life."
+  },
+  {
+    "label": "Loan Confidence",
+    "question": "When do people usually feel confident about managing their loan?",
+    "answer": "Confidence often grows after a few months of regular, on-time payments.",
+    "reasoning": "Shows confidence as gradual."
+  },
+  {
+    "label": "Loan Misunderstanding",
+    "question": "Why do some people think loans are always bad?",
+    "answer": "Usually because of poor experiences or lack of planning, not because loans themselves are harmful.",
+    "reasoning": "Corrects misconception gently."
+  },
+  {
+    "label": "Monthly Balance",
+    "question": "How do people balance EMIs with everyday expenses?",
+    "answer": "They usually prioritize essentials first and plan remaining spending around EMIs.",
+    "reasoning": "Practical budgeting advice."
+  },
+  {
+    "label": "Loan Awareness",
+    "question": "Why does the loan balance reduce slowly at the start?",
+    "answer": "Early payments include more interest, so the balance drops faster later on.",
+    "reasoning": "Explains amortization simply."
+  },
+  {
+    "label": "Loan Discussions",
+    "question": "Is it common to discuss loans with family before deciding?",
+    "answer": "Yes, many people find it helpful to get opinions and support from family.",
+    "reasoning": "Reflects real behavior."
+  },
+  {
+    "label": "Loan Transparency",
+    "question": "Why do banks show both monthly EMI and total repayment amount?",
+    "answer": "It helps borrowers see both short-term payments and long-term cost clearly.",
+    "reasoning": "Explains dual presentation."
+  },
+  {
+    "label": "EMI Stability",
+    "question": "Why do people like predictable EMIs?",
+    "answer": "Predictable payments make monthly budgeting easier and less stressful.",
+    "reasoning": "Links predictability to comfort."
+  },
+  {
+    "label": "Loan Responsibility",
+    "question": "Does taking a loan mean I’m bad with money?",
+    "answer": "Not at all. Many financially responsible people use loans wisely.",
+    "reasoning": "Removes stigma."
+  },
+  {
+    "label": "Loan Habits",
+    "question": "What habits help people stay comfortable with loans?",
+    "answer": "Tracking expenses, paying on time, and not borrowing extra usually help.",
+    "reasoning": "Lists helpful behaviors."
+  },
+  {
+    "label": "Loan Confusion",
+    "question": "Why do loan offers sometimes look too good to be true?",
+    "answer": "Some offers highlight benefits upfront, so reading full terms is important.",
+    "reasoning": "Encourages careful reading."
+  },
+  {
+    "label": "Loan Flexibility",
+    "question": "Can loan payments be adjusted if income changes?",
+    "answer": "In some cases, banks may review requests depending on the situation.",
+    "reasoning": "Keeps expectations realistic."
+  },
+  {
+    "label": "Loan Learning",
+    "question": "Do people usually understand loans better after taking one?",
+    "answer": "Yes, experience often makes loan concepts clearer over time.",
+    "reasoning": "Acknowledges learning curve."
+  },
+  {
+    "label": "Loan Comfort Zone",
+    "question": "How do I know if I’m borrowing within my comfort zone?",
+    "answer": "If repayments don’t affect essentials or savings, it’s usually comfortable.",
+    "reasoning": "Defines comfort practically."
+  },
+  {
+    "label": "Loan Monitoring",
+    "question": "How often should I check my loan status?",
+    "answer": "Occasionally checking is enough unless there’s a change or issue.",
+    "reasoning": "Avoids over-monitoring."
+  },
+  {
+    "label": "Loan Pressure",
+    "question": "Why do people feel pressure once they take a loan?",
+    "answer": "It’s the sense of responsibility that comes with long-term commitments.",
+    "reasoning": "Explains emotional response."
+  },
+  {
+    "label": "Loan Completion",
+    "question": "What do people usually feel after finishing a loan?",
+    "answer": "Many feel relief and a sense of accomplishment.",
+    "reasoning": "Captures common emotional outcome."
+  },
+  {
+    "label": "Loan Communication",
+    "question": "Is it okay to contact the bank often about loan questions?",
+    "answer": "Yes, asking questions helps avoid confusion and mistakes.",
+    "reasoning": "Encourages communication."
+  },
+  {
+    "label": "General Understanding",
+    "question": "What’s the simplest way to stay stress-free with a loan?",
+    "answer": "Borrow wisely, pay on time, and keep things simple.",
+    "reasoning": "Concise, memorable guidance."
+  },
+
+
+
+
+  {
+    "label": "Loan Tax Basics",
+    "question": "Do loans have anything to do with taxes?",
+    "answer": "Yes, some types of loans can affect taxes, mainly through interest benefits or deductions.",
+    "reasoning": "Introduces connection simply."
+  },
+  {
+    "label": "Interest Deduction",
+    "question": "Can I reduce my taxes because I’m paying loan interest?",
+    "answer": "In some cases, yes. Certain loans allow interest paid to be claimed as a tax deduction.",
+    "reasoning": "Keeps it general and accurate."
+  },
+  {
+    "label": "Home Loan Taxes",
+    "question": "Why do people say home loans help save tax?",
+    "answer": "Because the interest and sometimes the principal repayment may qualify for tax benefits.",
+    "reasoning": "Explains common belief clearly."
+  },
+  {
+    "label": "Personal Loan Tax",
+    "question": "Do personal loans give any tax benefit?",
+    "answer": "Usually no, unless the loan is used for specific purposes allowed under tax rules.",
+    "reasoning": "Corrects common assumption."
+  },
+  {
+    "label": "Proof Requirement",
+    "question": "Do I need proof to claim tax benefits on a loan?",
+    "answer": "Yes, banks usually provide interest certificates that act as proof.",
+    "reasoning": "Explains documentation need."
+  },
+  {
+    "label": "Loan Purpose Tax Impact",
+    "question": "Does the reason I took the loan matter for taxes?",
+    "answer": "Yes, tax benefits often depend on how the loan amount is used.",
+    "reasoning": "Highlights purpose-based rules."
+  },
+  {
+    "label": "Tax Filing Confusion",
+    "question": "Will the bank automatically handle loan tax benefits for me?",
+    "answer": "No, you usually need to claim them while filing your tax return.",
+    "reasoning": "Clarifies responsibility."
+  },
+  {
+    "label": "Education Loan Tax",
+    "question": "Are education loans treated differently for tax savings?",
+    "answer": "Yes, interest paid on education loans often qualifies for tax deductions under certain rules.",
+    "reasoning": "Factually correct and common."
+  },
+  {
+    "label": "Loan EMI Breakdown",
+    "question": "Which part of EMI matters for tax benefits?",
+    "answer": "Usually the interest part matters, and sometimes the principal, depending on the loan type.",
+    "reasoning": "Explains EMI components."
+  },
+  {
+    "label": "Tax Benefit Limits",
+    "question": "Is there a limit to how much loan interest I can claim for tax?",
+    "answer": "Yes, tax laws often set limits, which vary by loan type and country.",
+    "reasoning": "Avoids giving wrong numbers."
+  },
+  {
+    "label": "Joint Loan Taxes",
+    "question": "If I take a joint loan, can both people claim tax benefits?",
+    "answer": "Often yes, if both are paying the loan and meet tax rules.",
+    "reasoning": "Addresses common real scenario."
+  },
+  {
+    "label": "Loan Statements for Tax",
+    "question": "What document should I check for tax filing related to my loan?",
+    "answer": "An annual loan interest statement from the bank is usually helpful.",
+    "reasoning": "Points to practical action."
+  },
+  {
+    "label": "Tax Saving Awareness",
+    "question": "Should tax savings be the main reason to take a loan?",
+    "answer": "No, tax benefits are a bonus, not a reason to borrow unnecessarily.",
+    "reasoning": "Encourages responsible borrowing."
+  },
+  {
+    "label": "Loan Closure Tax",
+    "question": "Does closing a loan early affect tax benefits?",
+    "answer": "Yes, once the loan is closed, you can’t claim future interest benefits.",
+    "reasoning": "Explains consequence simply."
+  },
+  {
+    "label": "Tax Slab Confusion",
+    "question": "Do loan tax benefits depend on my tax slab?",
+    "answer": "Yes, the benefit you get depends on how much tax you normally pay.",
+    "reasoning": "Explains impact of tax bracket."
+  },
+  {
+    "label": "Loan Use Proof",
+    "question": "How do tax authorities know how I used my loan?",
+    "answer": "They rely on documents, declarations, and sometimes bank records.",
+    "reasoning": "Explains verification lightly."
+  },
+  {
+    "label": "Loan and Salary",
+    "question": "Can loan tax benefits reduce tax deducted from my salary?",
+    "answer": "Yes, if you declare them properly to your employer.",
+    "reasoning": "Connects loans to payroll."
+  },
+  {
+    "label": "Tax Filing Timing",
+    "question": "When should I collect loan documents for tax filing?",
+    "answer": "Usually before filing returns, once the financial year ends.",
+    "reasoning": "Simple timing guidance."
+  },
+  {
+    "label": "Loan Misunderstanding",
+    "question": "Do all loans automatically reduce tax?",
+    "answer": "No, only certain loans and conditions qualify for tax benefits.",
+    "reasoning": "Corrects misconception."
+  },
+  {
+    "label": "General Tax Clarity",
+    "question": "Who should I talk to if I’m unsure about loan tax benefits?",
+    "answer": "A tax advisor or official tax guide can help clarify things.",
+    "reasoning": "Encourages correct support."
+  },
+
+
+
+
+
+
+  {
+    "label": "Tax Deduction Meaning",
+    "question": "What does it actually mean when people say loan interest is tax deductible?",
+    "answer": "It means a portion of the interest you pay can reduce your taxable income, depending on tax rules.",
+    "reasoning": "Clarifies a commonly misunderstood term."
+  },
+  {
+    "label": "Tax vs Refund",
+    "question": "Does claiming loan tax benefits mean I’ll get money back?",
+    "answer": "Not always. It usually reduces how much tax you owe, not a direct refund.",
+    "reasoning": "Corrects a frequent assumption."
+  },
+  {
+    "label": "Home Loan Proof",
+    "question": "What proof do I need to show for home loan tax benefits?",
+    "answer": "Banks typically provide an annual interest and principal repayment certificate.",
+    "reasoning": "Points to practical documents."
+  },
+  {
+    "label": "Education Loan Duration",
+    "question": "Can I claim tax benefits on education loan interest every year?",
+    "answer": "Usually yes, as long as the loan is active and interest is being paid, within allowed limits.",
+    "reasoning": "Explains continuity of benefits."
+  },
+  {
+    "label": "Personal Loan Usage",
+    "question": "If I used a personal loan for business, does that affect taxes?",
+    "answer": "Yes, in some cases the interest may be considered a business expense.",
+    "reasoning": "Explains usage-based impact."
+  },
+  {
+    "label": "Loan Statement Confusion",
+    "question": "Why do loan tax statements look different from bank account statements?",
+    "answer": "They focus only on interest and principal paid, not daily transactions.",
+    "reasoning": "Clarifies format difference."
+  },
+  {
+    "label": "Employer Declaration",
+    "question": "Why does my employer ask for loan details for tax purposes?",
+    "answer": "They use that information to adjust tax deductions from your salary.",
+    "reasoning": "Connects HR and tax."
+  },
+  {
+    "label": "Tax Benefit Timing",
+    "question": "Do loan tax benefits apply from the first EMI itself?",
+    "answer": "Yes, benefits usually apply from the time interest payments begin.",
+    "reasoning": "Explains timing clearly."
+  },
+  {
+    "label": "Loan Repayment Proof",
+    "question": "Do I need to submit EMI receipts during tax filing?",
+    "answer": "Usually no, but keeping them for records is a good idea.",
+    "reasoning": "Practical guidance."
+  },
+  {
+    "label": "Old vs New Tax Regime",
+    "question": "Why do loan tax benefits depend on the tax system I choose?",
+    "answer": "Some tax systems allow deductions while others offer lower rates instead.",
+    "reasoning": "Explains regime choice without jargon."
+  },
+  {
+    "label": "Joint Loan Claim",
+    "question": "Can both borrowers claim interest on a joint home loan?",
+    "answer": "Yes, if both contribute to repayment and meet eligibility rules.",
+    "reasoning": "Addresses joint ownership scenario."
+  },
+  {
+    "label": "Loan Closure Proof",
+    "question": "Should I keep loan closure documents for tax reasons?",
+    "answer": "Yes, they can be useful if questions come up later.",
+    "reasoning": "Encourages record keeping."
+  },
+  {
+    "label": "Tax Limit Awareness",
+    "question": "What happens if my loan interest crosses the tax limit?",
+    "answer": "Only the allowed portion can be claimed; the rest doesn’t give tax benefit.",
+    "reasoning": "Explains caps simply."
+  },
+  {
+    "label": "Self-Employed Tax",
+    "question": "Are loan tax rules different for self-employed people?",
+    "answer": "Yes, they may claim interest as a business expense depending on usage.",
+    "reasoning": "Acknowledges different taxpayer types."
+  },
+  {
+    "label": "Loan Benefit Delay",
+    "question": "Why do tax benefits feel delayed compared to loan payments?",
+    "answer": "Because benefits are usually realized during tax filing, not monthly.",
+    "reasoning": "Explains timing mismatch."
+  },
+  {
+    "label": "Tax Audit Concern",
+    "question": "Can claiming loan tax benefits trigger tax scrutiny?",
+    "answer": "As long as claims are genuine and documented, it’s usually fine.",
+    "reasoning": "Reassures without guarantees."
+  },
+  {
+    "label": "Loan Restructuring Tax",
+    "question": "If my loan is restructured, does it affect tax benefits?",
+    "answer": "It can, depending on how interest and repayment change.",
+    "reasoning": "Acknowledges complexity honestly."
+  },
+  {
+    "label": "Multiple Loans Tax",
+    "question": "Can I claim tax benefits on more than one loan?",
+    "answer": "Yes, if each loan qualifies under tax rules.",
+    "reasoning": "Explains multiple-loan scenario."
+  },
+  {
+    "label": "Tax Planning Mistake",
+    "question": "What’s a common mistake people make with loan tax benefits?",
+    "answer": "Assuming benefits apply automatically without checking eligibility.",
+    "reasoning": "Highlights frequent error."
+  },
+  {
+    "label": "Tax Help",
+    "question": "When should I get professional help for loan tax questions?",
+    "answer": "If things feel confusing or complex, getting help early can save trouble later.",
+    "reasoning": "Encourages timely assistance."
+  },
+
+
+
+
+
+  {
+    "label": "Tax Planning Awareness",
+    "question": "Should I think about taxes before taking a loan?",
+    "answer": "It helps to be aware of tax rules, but the loan should mainly fit your financial needs.",
+    "reasoning": "Keeps tax planning secondary to affordability."
+  },
+  {
+    "label": "Interest Certificate Timing",
+    "question": "When do banks usually give loan interest certificates?",
+    "answer": "Most banks provide them after the financial year ends.",
+    "reasoning": "Provides practical timing info."
+  },
+  {
+    "label": "Loan Type Difference",
+    "question": "Why do tax benefits differ between home loans and other loans?",
+    "answer": "Tax laws encourage certain goals like housing and education, so benefits vary by loan type.",
+    "reasoning": "Explains policy intent simply."
+  },
+  {
+    "label": "Tax Claim Responsibility",
+    "question": "If I forget to claim loan tax benefits one year, is it gone forever?",
+    "answer": "Sometimes you may still correct it, but it’s best to claim on time.",
+    "reasoning": "Encourages timely filing without legal advice."
+  },
+  {
+    "label": "Loan Usage Proof",
+    "question": "Do I need to prove how I used my loan for tax purposes?",
+    "answer": "In some cases, yes, especially when tax benefits depend on usage.",
+    "reasoning": "Highlights documentation importance."
+  },
+  {
+    "label": "Floating Interest Tax",
+    "question": "Does changing interest rate affect tax benefits?",
+    "answer": "The benefit depends on interest paid, so changes can affect the amount claimed.",
+    "reasoning": "Connects rate changes to tax impact."
+  },
+  {
+    "label": "Tax Benefit Reality",
+    "question": "Why do tax savings from loans feel smaller than expected?",
+    "answer": "Because they reduce taxable income, not the loan amount itself.",
+    "reasoning": "Corrects inflated expectations."
+  },
+  {
+    "label": "Loan Completion Timing",
+    "question": "Can I claim tax benefits in the year I finish repaying my loan?",
+    "answer": "Yes, you can usually claim benefits for interest paid during that year.",
+    "reasoning": "Clarifies final-year eligibility."
+  },
+  {
+    "label": "Tax vs EMI",
+    "question": "Do tax benefits reduce my EMI amount?",
+    "answer": "No, EMIs stay the same; tax benefits only affect your tax calculation.",
+    "reasoning": "Separates loan payment from tax impact."
+  },
+  {
+    "label": "Loan Extension Tax",
+    "question": "If I extend my loan tenure, does it affect tax benefits?",
+    "answer": "It may change how much interest you pay, which can affect benefits.",
+    "reasoning": "Explains indirect impact."
+  },
+  {
+    "label": "Tax Documentation Habit",
+    "question": "Is it a good idea to keep loan tax documents every year?",
+    "answer": "Yes, keeping them helps if questions arise later.",
+    "reasoning": "Encourages good record keeping."
+  },
+  {
+    "label": "Loan Repayment Mode",
+    "question": "Does paying EMIs online or offline affect tax benefits?",
+    "answer": "No, tax benefits depend on interest paid, not payment method.",
+    "reasoning": "Clears unnecessary concern."
+  },
+  {
+    "label": "Multiple Claim Confusion",
+    "question": "Can I claim the same loan tax benefit twice?",
+    "answer": "No, tax benefits can only be claimed once per eligible payment.",
+    "reasoning": "Prevents misuse misunderstanding."
+  },
+  {
+    "label": "Tax Benefit Awareness",
+    "question": "Why do some people miss out on loan tax benefits?",
+    "answer": "Often because they aren’t aware of rules or forget to claim them.",
+    "reasoning": "Highlights awareness gap."
+  },
+  {
+    "label": "Loan Statement Accuracy",
+    "question": "Should I double-check loan interest amounts before filing taxes?",
+    "answer": "Yes, checking statements helps avoid errors during filing.",
+    "reasoning": "Encourages verification."
+  },
+  {
+    "label": "Tax Filing Pressure",
+    "question": "Why does tax season make loan details feel stressful?",
+    "answer": "Because multiple documents come together at once, which can feel overwhelming.",
+    "reasoning": "Relates to real emotional experience."
+  },
+  {
+    "label": "Loan Purpose Change",
+    "question": "If I change how I use my loan money, does tax treatment change?",
+    "answer": "It can, especially if tax benefits depend on the original purpose.",
+    "reasoning": "Clarifies conditional rules."
+  },
+  {
+    "label": "Loan Tax Myth",
+    "question": "Is taking a loan a guaranteed way to save tax?",
+    "answer": "No, tax savings depend on loan type, usage, and tax rules.",
+    "reasoning": "Debunks a common myth."
+  },
+  {
+    "label": "Tax Learning Curve",
+    "question": "Why do people understand loan taxes better after a few years?",
+    "answer": "Because experience makes tax rules and documents more familiar.",
+    "reasoning": "Explains gradual learning."
+  },
+  {
+    "label": "Final Tax Advice",
+    "question": "What’s the simplest rule to remember about loans and taxes?",
+    "answer": "Use loans responsibly, understand tax rules, and keep your documents organized.",
+    "reasoning": "Summarizes the theme clearly."
+  },
+
+
+
+
+
+  {
+    "label": "Loan Confusion",
+    "question": "I’m not sure what EMIs really are, can you explain?",
+    "answer": "Sure! EMI stands for Equated Monthly Installment — it’s the same amount you pay every month toward your loan.",
+    "reasoning": "Clarifies basic confusion simply."
+  },
+  {
+    "label": "Interest Confusion",
+    "question": "I keep mixing up principal and interest, what’s the difference?",
+    "answer": "The principal is the amount you borrowed, while interest is the extra cost you pay for borrowing it.",
+    "reasoning": "Explains clearly and calmly."
+  },
+  {
+    "label": "Loan Type Mix-Up",
+    "question": "Are personal loans and home loans the same?",
+    "answer": "Not quite. Home loans are specifically for buying property, while personal loans can be for anything.",
+    "reasoning": "Clarifies types without jargon."
+  },
+  {
+    "label": "Prepayment Doubt",
+    "question": "I heard about prepayment, does it mean paying less EMI?",
+    "answer": "Prepayment usually means paying extra to reduce total interest or shorten the loan tenure.",
+    "reasoning": "Corrects partial misunderstanding."
+  },
+  {
+    "label": "Tax Confusion",
+    "question": "I’m confused if I can save tax with my personal loan, how does that work?",
+    "answer": "Most personal loans don’t give tax benefits, unlike home or education loans.",
+    "reasoning": "Directly addresses confusion."
+  },
+  {
+    "label": "EMI Date Mix-Up",
+    "question": "Do I have to pay EMIs on the same date every month?",
+    "answer": "Usually yes, banks set a fixed date, but some let you adjust it once in a while.",
+    "reasoning": "Simplifies recurring payment confusion."
+  },
+  {
+    "label": "Loan Eligibility",
+    "question": "I’m not sure if my salary is enough for a loan, how do I check?",
+    "answer": "A simple rule is to see if EMIs fit comfortably in your budget. Banks also assess this when you apply.",
+    "reasoning": "Addresses uncertainty with practical guidance."
+  },
+  {
+    "label": "Interest Rate Confusion",
+    "question": "Why do some loans have floating rates? I don’t get it.",
+    "answer": "Floating rates can change with market conditions, so your EMI might vary.",
+    "reasoning": "Explains clearly with simple cause."
+  },
+  {
+    "label": "Credit Score Concern",
+    "question": "I don’t understand why my credit score matters for a loan.",
+    "answer": "It shows banks how reliably you’ve repaid money before, helping them decide approval and terms.",
+    "reasoning": "Clarifies link to repayment history."
+  },
+  {
+    "label": "Loan Rejection Confusion",
+    "question": "I thought I qualified, but my loan got rejected. Why?",
+    "answer": "Banks consider multiple things like income, credit history, and existing loans. Sometimes it’s a combination.",
+    "reasoning": "Normalizes confusion and explains multiple factors."
+  },
+  {
+    "label": "Processing Fee Confusion",
+    "question": "I’m confused, what’s a processing fee for a loan?",
+    "answer": "It’s a small charge banks apply to cover administrative work while approving the loan.",
+    "reasoning": "Simple explanation for first-timers."
+  },
+  {
+    "label": "Multiple Loans Confusion",
+    "question": "Can I have more than one loan at the same time? I’m not sure.",
+    "answer": "Yes, as long as you can repay comfortably, but too many loans can be risky.",
+    "reasoning": "Friendly caution while clarifying doubt."
+  },
+  {
+    "label": "Loan Closure Confusion",
+    "question": "If I pay off my loan early, will there be extra charges? I don’t get it.",
+    "answer": "Some loans have prepayment charges, others don’t. Checking your agreement will tell you.",
+    "reasoning": "Explains uncertainty realistically."
+  },
+  {
+    "label": "EMI Calculation",
+    "question": "I’m confused, how do they calculate EMI exactly?",
+    "answer": "It’s based on principal, interest rate, and loan tenure. Banks usually provide a calculator.",
+    "reasoning": "Clarifies method without math overload."
+  },
+  {
+    "label": "Late Payment Doubt",
+    "question": "If I miss one EMI, will I get in big trouble? I’m worried.",
+    "answer": "Missing one may cause a small late fee, but paying quickly minimizes impact.",
+    "reasoning": "Reassuring while informative."
+  },
+  {
+    "label": "Loan Terms Confusion",
+    "question": "Some terms in the loan paper confuse me, should I worry?",
+    "answer": "Not really. You can ask the bank to explain anything you don’t understand.",
+    "reasoning": "Promotes safe clarification."
+  },
+  {
+    "label": "Tax Deduction Confusion",
+    "question": "I heard about tax deduction on home loan, but I’m not sure what it means.",
+    "answer": "It means you can reduce your taxable income by the interest paid on the loan.",
+    "reasoning": "Simplifies a common misunderstanding."
+  },
+  {
+    "label": "Principal vs EMI",
+    "question": "I don’t get why paying EMI doesn’t reduce the loan fully at first.",
+    "answer": "Early EMIs mostly cover interest, so the principal reduces gradually.",
+    "reasoning": "Clarifies amortization simply."
+  },
+  {
+    "label": "Loan Advice Confusion",
+    "question": "I’m lost between different loan options, how should I choose?",
+    "answer": "Look at interest rates, EMIs, and your budget. Comparing options helps.",
+    "reasoning": "Practical guidance for indecision."
+  },
+  {
+    "label": "Pre-Closure Confusion",
+    "question": "If I close the loan before time, do I save money or lose money? I’m confused.",
+    "answer": "You may save interest but some loans charge prepayment fees. Checking your agreement is best.",
+    "reasoning": "Clarifies trade-off realistically."
+  },
+
+
+
+
+
+
+  {
+    "label": "Loan Interest Confusion",
+    "question": "I don’t understand why interest keeps adding up even though I pay EMIs.",
+    "answer": "It’s because part of each EMI goes toward interest first, and only the remaining reduces the principal.",
+    "reasoning": "Clarifies EMI-interest relationship clearly."
+  },
+  {
+    "label": "Partial Payment Confusion",
+    "question": "Can I pay just part of my EMI if I’m short on money?",
+    "answer": "Partial payments usually don’t count fully and may cause late fees; it’s best to pay the full EMI.",
+    "reasoning": "Explains consequences while being practical."
+  },
+  {
+    "label": "Loan Tenure Confusion",
+    "question": "Does a longer loan tenure always mean I pay less?",
+    "answer": "Monthly EMIs may be smaller, but total interest paid usually increases.",
+    "reasoning": "Clears common misconception."
+  },
+  {
+    "label": "Processing Fee Confusion",
+    "question": "I don’t get why banks charge processing fees even before giving money.",
+    "answer": "Processing fees cover paperwork and verification before the loan is disbursed.",
+    "reasoning": "Simple explanation for first-time borrowers."
+  },
+  {
+    "label": "EMI Miss Confusion",
+    "question": "What happens if I miss one EMI accidentally?",
+    "answer": "You may pay a small late fee, and it’s good to inform the bank and pay as soon as possible.",
+    "reasoning": "Reassures while explaining the effect."
+  },
+  {
+    "label": "Loan Type Confusion",
+    "question": "I’m not sure if my loan is a personal loan or a home loan.",
+    "answer": "Check your loan agreement; personal loans are for general purposes, home loans are for property.",
+    "reasoning": "Helps identify type clearly."
+  },
+  {
+    "label": "Interest Rate Confusion",
+    "question": "Why do some loans have variable interest? I don’t understand.",
+    "answer": "Variable or floating rates change over time, so EMIs can go up or down.",
+    "reasoning": "Clarifies floating rate simply."
+  },
+  {
+    "label": "Tax Benefit Confusion",
+    "question": "I heard home loans save tax, but what about my loan?",
+    "answer": "Only certain loans like home or education loans give tax benefits; personal loans usually don’t.",
+    "reasoning": "Corrects a common misunderstanding."
+  },
+  {
+    "label": "Principal vs Interest Confusion",
+    "question": "I thought my payment reduces loan quickly, but it doesn’t. Why?",
+    "answer": "Because initial EMIs mostly pay interest; the principal reduces slowly at first.",
+    "reasoning": "Clarifies amortization in friendly terms."
+  },
+  {
+    "label": "Multiple Loans Confusion",
+    "question": "Can I manage two loans at the same time? I’m lost.",
+    "answer": "Yes, if your budget can handle it. But taking too many loans can be risky.",
+    "reasoning": "Offers cautious guidance."
+  },
+  {
+    "label": "Prepayment Confusion",
+    "question": "I don’t get prepayment. Will it reduce EMI or loan tenure?",
+    "answer": "Prepayment usually reduces total interest and can shorten the loan tenure; EMI may stay the same or reduce depending on bank rules.",
+    "reasoning": "Explains prepayment effects clearly."
+  },
+  {
+    "label": "Credit Score Confusion",
+    "question": "Why is my loan affected by my credit score? I don’t understand.",
+    "answer": "Banks look at credit history to see if you repay loans reliably.",
+    "reasoning": "Simplifies credit score impact."
+  },
+  {
+    "label": "Loan Closure Confusion",
+    "question": "If I pay off early, do I need extra paperwork?",
+    "answer": "Yes, banks usually provide a closure certificate and final statement.",
+    "reasoning": "Highlights procedure clearly."
+  },
+  {
+    "label": "Interest Calculation Confusion",
+    "question": "How do they calculate interest? I’m confused.",
+    "answer": "It’s based on principal, rate, and tenure; banks usually provide calculators.",
+    "reasoning": "Explains method without complex math."
+  },
+  {
+    "label": "EMI Adjustment Confusion",
+    "question": "Can I change EMI amount midway? I don’t understand.",
+    "answer": "Some banks allow adjustments after request; check your loan terms.",
+    "reasoning": "Clarifies flexibility realistically."
+  },
+  {
+    "label": "Late Fee Confusion",
+    "question": "Are late fees added immediately if I miss an EMI?",
+    "answer": "Usually yes, but paying quickly minimizes impact.",
+    "reasoning": "Friendly guidance for anxious users."
+  },
+  {
+    "label": "Loan Term Confusion",
+    "question": "Does changing tenure affect interest? I’m not sure.",
+    "answer": "Yes, longer tenure usually increases total interest, shorter tenure reduces it but EMIs go up.",
+    "reasoning": "Explains trade-off clearly."
+  },
+  {
+    "label": "Bank Statement Confusion",
+    "question": "My bank statement shows different numbers than I expected. Why?",
+    "answer": "Statements show interest, principal, fees, and adjustments. It’s normal for totals to feel different.",
+    "reasoning": "Reassures users about normal discrepancies."
+  },
+  {
+    "label": "Loan Advice Confusion",
+    "question": "I’m confused between two loan offers, what should I do?",
+    "answer": "Compare interest rates, EMIs, fees, and your comfort level before deciding.",
+    "reasoning": "Provides practical guidance."
+  },
+  {
+    "label": "EMI First Month Confusion",
+    "question": "Why does the first EMI feel more than I expected?",
+    "answer": "It includes some setup fees or more interest, which evens out over time.",
+    "reasoning": "Explains initial EMI variance."
+  },
+
+
+
+
+
+  {
+    "label": "Fraud Alert Basics",
+    "question": "How can I make sure my loan account isn’t being misused?",
+    "answer": "Regularly check statements, set alerts, and report any suspicious activity immediately to your bank.",
+    "reasoning": "Basic precaution guidance for beginners."
+  },
+  {
+    "label": "Suspicious Call",
+    "question": "Someone called claiming to be from the bank asking for details, is it safe?",
+    "answer": "Never share sensitive info over phone. Verify by calling the bank’s official number.",
+    "reasoning": "Promotes safe verification habits."
+  },
+  {
+    "label": "Email Fraud",
+    "question": "I got an email about a loan I didn’t apply for, should I worry?",
+    "answer": "Yes, it could be phishing. Do not click links and report to your bank.",
+    "reasoning": "Raises awareness about email scams."
+  },
+  {
+    "label": "Fake Websites",
+    "question": "How do I know if a loan website is legit?",
+    "answer": "Check for official domain names, secure HTTPS, and reviews. When in doubt, contact the bank directly.",
+    "reasoning": "Guides safe browsing practices."
+  },
+  {
+    "label": "Document Safety",
+    "question": "Should I share scanned loan documents over email?",
+    "answer": "Only share via secure, verified channels. Avoid sending sensitive documents casually.",
+    "reasoning": "Encourages secure sharing."
+  },
+  {
+    "label": "SMS Scam Awareness",
+    "question": "I got a message about a loan I never took, what should I do?",
+    "answer": "Do not respond. Report it to your bank and your mobile operator if possible.",
+    "reasoning": "Practical advice to prevent fraud."
+  },
+  {
+    "label": "Loan Agent Fraud",
+    "question": "How do I know a loan agent is legitimate?",
+    "answer": "Verify their registration, check reviews, and confirm with the official bank before sharing details.",
+    "reasoning": "Encourages cautious verification."
+  },
+  {
+    "label": "Unauthorized Transactions",
+    "question": "I noticed a transaction I don’t recognize in my loan account, what now?",
+    "answer": "Report immediately to your bank and block the account if necessary.",
+    "reasoning": "Immediate protective action guidance."
+  },
+  {
+    "label": "Password Safety",
+    "question": "Can someone hack my loan account if they know my email?",
+    "answer": "Possibly, if passwords are weak. Use strong, unique passwords and enable two-factor authentication.",
+    "reasoning": "Promotes proactive security measures."
+  },
+  {
+    "label": "Phone Security",
+    "question": "Is it safe to access my loan account on public Wi-Fi?",
+    "answer": "No, public networks are risky. Use secure private networks or VPNs.",
+    "reasoning": "Guides safe access habits."
+  },
+  {
+    "label": "Unexpected Requests",
+    "question": "A stranger asked me to transfer money for a loan process, should I do it?",
+    "answer": "Never transfer money to unknown individuals; it’s likely a scam.",
+    "reasoning": "Warns against common fraud tactics."
+  },
+  {
+    "label": "Loan Confirmation Calls",
+    "question": "Bank asks for OTP over phone. Should I give it?",
+    "answer": "Never share OTPs over phone or messages. Banks will never ask for it this way.",
+    "reasoning": "Highlights critical security rule."
+  },
+  {
+    "label": "Phishing Links",
+    "question": "I clicked a loan link but it looks fake, what should I do?",
+    "answer": "Do not enter information, clear browser cache, and scan for malware. Inform the bank.",
+    "reasoning": "Practical fraud response guidance."
+  },
+  {
+    "label": "Social Media Scam",
+    "question": "I got a loan offer on social media, is it safe?",
+    "answer": "Most social media offers are suspicious. Only rely on official bank channels.",
+    "reasoning": "Prevents social media-based fraud."
+  },
+  {
+    "label": "Unauthorized Apps",
+    "question": "Can third-party apps access my loan account?",
+    "answer": "Only trusted official apps should be used. Avoid unofficial apps requesting sensitive info.",
+    "reasoning": "Encourages cautious app usage."
+  },
+  {
+    "label": "Fraud Check Habit",
+    "question": "How often should I check my loan account for fraud?",
+    "answer": "At least monthly, and enable notifications for instant alerts.",
+    "reasoning": "Promotes regular monitoring habit."
+  },
+  {
+    "label": "Loan Recovery Scam",
+    "question": "Someone promised to recover my overdue loan for a fee. Is this legit?",
+    "answer": "No, recovery services don’t charge upfront fees. Report immediately.",
+    "reasoning": "Warns against common scam tactics."
+  },
+  {
+    "label": "Fake Offers",
+    "question": "I got an SMS offering a very low-interest loan, should I trust it?",
+    "answer": "Be skeptical. Verify through the bank and do not share personal info.",
+    "reasoning": "Educates on too-good-to-be-true offers."
+  },
+  {
+    "label": "Loan Fraud Reporting",
+    "question": "Where can I report loan fraud?",
+    "answer": "Report to your bank first, then local authorities or official fraud reporting portals.",
+    "reasoning": "Guides proper reporting channels."
+  },
+  {
+    "label": "Identity Theft",
+    "question": "Can someone open a loan in my name without me knowing?",
+    "answer": "Yes, identity theft is possible. Check credit reports regularly and report suspicious activity.",
+    "reasoning": "Raises awareness of identity-related fraud."
+  },
+
+
+
+
+  {
+    "label": "OTP Safety",
+    "question": "I got an OTP request on my phone. Should I share it?",
+    "answer": "Never share OTPs with anyone, even if they claim to be from the bank.",
+    "reasoning": "Critical safety rule against fraud."
+  },
+  {
+    "label": "Loan Scam Calls",
+    "question": "Someone called offering instant loan approval, is it safe?",
+    "answer": "Be cautious. Only trust official bank channels; unsolicited calls are often scams.",
+    "reasoning": "Warns against unsolicited offers."
+  },
+  {
+    "label": "Suspicious SMS",
+    "question": "I got a text about a loan I never applied for, what now?",
+    "answer": "Do not reply or click links. Report it to your bank immediately.",
+    "reasoning": "Practical response to suspicious messages."
+  },
+  {
+    "label": "Fake Bank Website",
+    "question": "I landed on a website looking like my bank. How do I know it’s real?",
+    "answer": "Check for official domain, HTTPS, and contact the bank if unsure.",
+    "reasoning": "Guides safe verification online."
+  },
+  {
+    "label": "Unauthorized Access",
+    "question": "Someone accessed my loan account without permission, what should I do?",
+    "answer": "Inform the bank immediately and change passwords; monitor your account closely.",
+    "reasoning": "Immediate protection steps."
+  },
+  {
+    "label": "Phishing Email",
+    "question": "I got an email asking for my loan details, is this normal?",
+    "answer": "No, banks never ask for sensitive info via email. Report and delete it.",
+    "reasoning": "Educates against phishing attempts."
+  },
+  {
+    "label": "Loan Fraud Awareness",
+    "question": "How can I check if a loan offer is genuine?",
+    "answer": "Verify through official bank channels and avoid offers from unknown sources.",
+    "reasoning": "Promotes verification habit."
+  },
+  {
+    "label": "Suspicious Agent",
+    "question": "A loan agent asked for extra fees upfront, is this okay?",
+    "answer": "No, legitimate agents don’t ask for upfront fees. Report suspicious activity.",
+    "reasoning": "Warns against fraudulent agents."
+  },
+  {
+    "label": "App Security",
+    "question": "Can a third-party app access my loan info?",
+    "answer": "Only use official bank apps; avoid unverified apps requesting sensitive info.",
+    "reasoning": "Prevents app-based fraud."
+  },
+  {
+    "label": "Identity Safety",
+    "question": "How do I protect myself from someone taking a loan in my name?",
+    "answer": "Regularly check credit reports and report suspicious activity immediately.",
+    "reasoning": "Raises awareness of identity fraud."
+  },
+  {
+    "label": "Suspicious Link",
+    "question": "I clicked a loan link that seems fake. What should I do?",
+    "answer": "Do not enter details, clear browser cache, run security scans, and inform the bank.",
+    "reasoning": "Practical response for online fraud."
+  },
+  {
+    "label": "Too Good Offers",
+    "question": "I got a loan offer with unusually low interest, should I trust it?",
+    "answer": "Be cautious; confirm with official bank channels before sharing any info.",
+    "reasoning": "Prevents falling for scam offers."
+  },
+  {
+    "label": "Loan Document Sharing",
+    "question": "Can I email my loan documents to a stranger to get quick approval?",
+    "answer": "Never share sensitive documents with unverified parties.",
+    "reasoning": "Encourages secure document handling."
+  },
+  {
+    "label": "SMS Link Suspicion",
+    "question": "I got a message with a link for a loan update, should I click?",
+    "answer": "Do not click links from unknown sources. Check with your bank directly.",
+    "reasoning": "Prevents phishing attempts."
+  },
+  {
+    "label": "Emergency Fraud Report",
+    "question": "I think I’ve been scammed, how do I report quickly?",
+    "answer": "Contact your bank immediately and report to official fraud authorities.",
+    "reasoning": "Promotes prompt action."
+  },
+  {
+    "label": "Loan Verification",
+    "question": "Someone claims to approve loans instantly, is this legit?",
+    "answer": "Most instant approvals outside banks are scams. Always verify via official channels.",
+    "reasoning": "Prevents trusting dubious offers."
+  },
+  {
+    "label": "Suspicious Call Follow-Up",
+    "question": "I received a call asking my PAN for a loan, what do I do?",
+    "answer": "Do not share sensitive details over phone. Verify independently with the bank.",
+    "reasoning": "Reinforces safe practices."
+  },
+  {
+    "label": "Email Verification",
+    "question": "How do I know if an email from my bank is real?",
+    "answer": "Check sender address, avoid links, and confirm via official customer service.",
+    "reasoning": "Teaches verification technique."
+  },
+  {
+    "label": "Loan Scam Awareness",
+    "question": "Are all loan offers online trustworthy?",
+    "answer": "No, many fake offers exist. Always verify before sharing info.",
+    "reasoning": "General cautionary advice."
+  },
+  {
+    "label": "Social Media Fraud",
+    "question": "I saw a loan ad on social media, can I trust it?",
+    "answer": "Most social media offers are not safe. Only rely on official bank channels.",
+    "reasoning": "Prevents social media scams."
+  },
+
+
+
+
+  {
+    "label": "Suspicious Link",
+    "question": "I got a text with a link asking for my loan info. Should I click it?",
+    "answer": "No, never click links from unknown sources. Verify with your bank first.",
+    "reasoning": "Warns about phishing attempts."
+  },
+  {
+    "label": "Fraudulent Calls",
+    "question": "Someone called saying my loan needs urgent payment. Is this real?",
+    "answer": "Probably not. Always verify by calling the official bank number.",
+    "reasoning": "Teaches verification of suspicious calls."
+  },
+  {
+    "label": "Email Scam",
+    "question": "I received an email about a loan I never applied for. What should I do?",
+    "answer": "Do not reply or click any links. Report it to your bank immediately.",
+    "reasoning": "Promotes safe email handling."
+  },
+  {
+    "label": "Fake Website",
+    "question": "How can I tell if a loan website is fake?",
+    "answer": "Check for HTTPS, official domain names, and verify with the bank.",
+    "reasoning": "Guides users to check legitimacy online."
+  },
+  {
+    "label": "Document Security",
+    "question": "Is it safe to share loan documents over email?",
+    "answer": "Only with official, secure channels. Avoid sending documents casually.",
+    "reasoning": "Encourages safe sharing habits."
+  },
+  {
+    "label": "Unauthorized Access",
+    "question": "I think someone accessed my loan account without permission. What now?",
+    "answer": "Contact your bank immediately and change passwords. Monitor your account closely.",
+    "reasoning": "Provides immediate protection advice."
+  },
+  {
+    "label": "Loan Agent Check",
+    "question": "How do I know if a loan agent is legit?",
+    "answer": "Check their registration, reviews, and verify with the bank.",
+    "reasoning": "Encourages verification before sharing info."
+  },
+  {
+    "label": "Suspicious SMS",
+    "question": "I got a message claiming I owe a loan I never took. What should I do?",
+    "answer": "Ignore it and report to your bank to be safe.",
+    "reasoning": "Guides users against SMS scams."
+  },
+  {
+    "label": "App Safety",
+    "question": "Can I use any app to check my loan?",
+    "answer": "Only use official bank apps. Avoid unverified third-party apps.",
+    "reasoning": "Prevents app-based fraud."
+  },
+  {
+    "label": "Identity Theft",
+    "question": "Can someone take a loan in my name?",
+    "answer": "Yes, it’s possible. Regularly check your credit report and report suspicious activity.",
+    "reasoning": "Raises awareness about identity-related fraud."
+  },
+  {
+    "label": "Phishing Link",
+    "question": "I clicked a loan link that looked fishy. What should I do?",
+    "answer": "Do not enter any details, clear your browser cache, and inform your bank.",
+    "reasoning": "Practical response to phishing attempts."
+  },
+  {
+    "label": "Too-Good-To-Be-True Offers",
+    "question": "I got a loan offer with super low interest. Can I trust it?",
+    "answer": "Be careful. Verify with official bank channels before sharing info.",
+    "reasoning": "Warns against scams disguised as attractive offers."
+  },
+  {
+    "label": "Upfront Fee Scam",
+    "question": "A person asked for money to process my loan. Is this okay?",
+    "answer": "Never pay anyone upfront outside the bank. It’s likely a scam.",
+    "reasoning": "Protects users from common fraud tactics."
+  },
+  {
+    "label": "Bank OTP",
+    "question": "Bank called asking my OTP. Should I give it?",
+    "answer": "Never share OTPs. Banks will not ask for them over phone.",
+    "reasoning": "Critical fraud protection advice."
+  },
+  {
+    "label": "Suspicious Social Media",
+    "question": "I saw a loan offer on social media, is it safe?",
+    "answer": "Most social media offers are risky. Only trust official bank sources.",
+    "reasoning": "Warns against social media scams."
+  },
+  {
+    "label": "Unexpected Requests",
+    "question": "Someone asked me to transfer money for a loan approval. Should I do it?",
+    "answer": "No, legitimate loans don’t require money transfer to individuals. Report it.",
+    "reasoning": "Protects against fraud."
+  },
+  {
+    "label": "Fraud Report",
+    "question": "Where should I report loan fraud?",
+    "answer": "Report to your bank first, then to official fraud reporting portals or authorities.",
+    "reasoning": "Guides proper reporting channels."
+  },
+  {
+    "label": "Verification Habit",
+    "question": "How do I make sure loan offers are genuine?",
+    "answer": "Verify with the bank, check official channels, and never share personal info blindly.",
+    "reasoning": "Encourages cautious verification habit."
+  },
+  {
+    "label": "Credit Monitoring",
+    "question": "Should I check my credit report regularly for fraud?",
+    "answer": "Yes, frequent monitoring helps detect identity fraud early.",
+    "reasoning": "Promotes preventive measures."
+  },
+  {
+    "label": "Alert Settings",
+    "question": "Can I get alerts for suspicious activity on my loan account?",
+    "answer": "Yes, enable notifications through your bank to catch issues early.",
+    "reasoning": "Encourages proactive monitoring."
+  }
+
+
+]
+
