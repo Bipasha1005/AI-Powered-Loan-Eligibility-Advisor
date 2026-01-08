@@ -41,6 +41,7 @@ loan_eligibility_app/
 ├── src/
 ├── app.py
 ├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
